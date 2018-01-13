@@ -1,0 +1,2773 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="author" content="PSG iTech" />
+<meta name="description" content="Yukta:,the national level inter-collegiate fest for those who want ot express the talents of different."/>
+<meta name="keywords" content="yuktaha,Yukta:,Yuktaha,"/>
+<meta name="application-name" content="Yuktaha" />
+<title>YUKTAHA 2K17</title>
+
+<!-- Google fonts -->
+<link href='assets/1.css' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="boot.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="assets/animate/set.css" />
+  <link rel="stylesheet" href="loader/normalize.min.css">
+  <link rel="stylesheet" href="loader/css/style.css">
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+	document.body.style.backgroundColor="rgba(0,0,0,0.5)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+	document.body.style.backgroundColor="rgba(255,255,255,1)";
+	}
+</script>
+
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="login/style.css">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style>
+
+
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+
+</style>
+
+</head>
+
+<body  >
+  <div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+<div class="topbar animated fadeInLeftBig"></div>
+
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+      <div class="container">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="top-nav" >
+          <div class="container">
+		 
+            <div class="navbar-header">
+                 
+           
+			<button type="button" class="navbar-toggle collapsed"  onclick="location.href='logout.php';" style="color:white">LOGOUT</button>
+              
+			<br><br>
+			
+<span style="font-size:30px;cursor:pointer;color:white;padding-left:10%" onclick="openNav()">&#9776;</span>
+				 
+            </div>
+
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right scroll">
+                 <li ><a href="#cse">CSE</a></li>
+                 <li ><a href="#eee">EEE</a></li>
+                 <li ><a href="#mech">MECH</a></li>
+                 <li ><a href="#civil">CIVIL</a></li>
+                 <li ><a href="#ece">ECE</a></li>
+				 <li> <a href="#mgm">INTERNO INSINIA</a></li>
+				 <li ><button type="button" onclick="location.href='logout.php';"class="" style="color:#777;margin-top:2.28em;background :none;border : none;padding-left:1em; " >LOGOUT</button></li>
+				  </ul>
+				  
+
+            <!-- #Nav Ends -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+<!-- #Header Starts -->
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav"  >
+<b style="padding-left:25%;font-size:170%;color:white;">YUKTA:'17</b>  
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="padding-left:70%">&times;</a>
+ 
+<br><br><br><br><br>
+  <h4 style="font:Calibri"><a href="index.html">Home</a>
+  <a href="event1.html" >Events</a>
+  <a href="workshop1.html">Workshop</a>
+  <a href="paper1.html">Paper presentation</a>
+  
+   </h4>
+   <!--THIS-->
+   
+<!--THis-->
+</div>
+
+<h3></h3>
+<!--<h2 align=center>Computer Science Engineering</h2>
+-->
+
+	
+<div id="cse"  class=" clearfix grid"> 
+<h3></h3><h3></h3><h3></h3>
+<h2 align=center style="color:white">COMPUTER SCIENCE ENGINEERING</h2>
+   
+   <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/1.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Code Blitz</h2>
+            <p><br> Time: 11AM-3PM<br>Venue:Virtualization lab<br>
+            <u><a data-toggle="modal" data-target="#myModalcodeblitz">View more</p>  </a>   </u>       
+         </figcaption>
+    </figure>
+    
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/2.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br>
+            <h2>Web Ninja</h2>
+            <p> Time: 1PM-3PM<br>Venue:SAP Lab<br>
+            <u><a data-toggle="modal" data-target="#myModalwebninja">View more</p>  </a>   </u>       
+        
+			</figcaption>
+    </figure>
+     
+		
+   
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/4.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Androxus</h2>
+            <p><br> Time: 11AM-3PM<br>Venue:IOT Lab<br>
+            <u><a data-toggle="modal" data-target="#myModalandroxus">View more</p>  </a>   </u>       
+        
+		</figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/3.jpg" alt="img01"/>
+        <figcaption><br><br>
+            <h2>Carbine Coders</h2>
+            <p><br> Time: 9AM-11AM <br>Venue:Oracle lab<br>
+            <u><a data-toggle="modal" data-target="#myModalcarbinecoders">View more</p>  </a>   </u>       
+            
+		</figcaption>
+		 </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/postermania.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Renoir's Sculptivision</h2>
+            <p><br> Time: 11AM-1PM<br>Venue:SAP Lab<br>
+            <u><a data-toggle="modal" data-target="#myrenoirssculptivision">View more</p>  </a>   </u>       
+        
+		</figcaption>
+    </figure>
+    
+	</div>
+<h3></h3>
+<!-- works -->
+<div id="eee"  class=" clearfix grid"> 
+
+<h2 align=center style="color:white">ELECTRICAL AND ELECTRONICS ENGINEERING</h2>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/123.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Circbuzz</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E3-206<br>
+            <u><a data-toggle="modal" data-target="#myModalcircbuzz">View more</p>  </a>   </u>       
+        
+		</figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/12345.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br>
+            <h2>e-Doodle</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E3-207<br>
+            <u><a data-toggle="modal" data-target="#myModaledoodle">View more</p>  </a>   </u>       
+        
+		</figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/1234.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Electro Bolt</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E3-204<br>
+            <u><a data-toggle="modal" data-target="#myModalelectrobolt">View more</p>  </a>   </u>       
+        
+		</figcaption>
+    </figure>
+     
+     
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/volt tackle 1.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br>
+            <h2>Volt tackle</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E3-208<br>
+            <u><a data-toggle="modal" data-target="#myModalvolttackle">View more</p>  </a>   </u>       
+        
+		</figcaption>
+        
+    </figure>
+     
+</div>
+
+<h3></h3>
+
+<!-- works -->
+<div id="mech"  class=" clearfix grid"> 
+<h3></h3>
+<h2 align=center style="color:white"> MECHANICAL ENGINEERING</h2>
+
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/contraption.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Contraption</h2>
+            <p><br> Time: 10:30AM-1:00PM<br>Venue: E6-405<br>
+             <u><a data-toggle="modal" data-target="#mycontraption">View more</p>  </a>   </u>              
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/techquiz.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Techie Quiz</h2>
+            <p><br> Time: 9AM-11AM<br>Venue: E6-302<br>
+            <u><a data-toggle="modal" data-target="#mytechiequiz">View more</p>  </a>   </u>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/machinist.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Mr.Machinist</h2>
+            <p><br> Time: 9AM-11AM<br>Venue: E6-402<br>
+            <u><a data-toggle="modal" data-target="#mymrmachinist">View more</p>  </a>   </u>          
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/autocad.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Third Dimension</h2>
+            <p><br> Time: 9AM-11AM<br>Venue: CAD LAB<br>
+            <u><a data-toggle="modal" data-target="#mythirddimension">View more</p>  </a>   </u>            
+        </figcaption>
+    </figure>
+     
+</div>
+<!-- works -->
+<h3></h3>
+<!-- works -->
+<div id="civil"  class=" clearfix grid"> 
+<h2 align=center style="color:white"> CIVIL ENGINEERING</h2>
+
+    
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/zenith edifice.jpg" alt="img01"/>
+        <figcaption><br><br><br>
+            <h2>Zenith<br>Edifice</h2>
+            <p><br> Time: 12PM-3:30PM<br>Venue:E1-301<br>
+            <u><a data-toggle="modal" data-target="#myModalzedifice">View more</p>  </a>   </u>       
+        
+			</figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/viruoso.jpg" alt="img01"/>
+        <figcaption><br><br>
+            <h2>Virtuoso</h2>
+            <p><br> Time: 10AM-3PM<br>Venue:E1-406<br>
+    <u><a data-toggle="modal" data-target="#myModalvirtuoso">View more</p>  </a>   </u>       
+                   
+		   </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/enroute.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>En route</h2>
+            <p><br> Time: 10AM-3PM<br>Venue:E1-303<br>
+    <u><a data-toggle="modal" data-target="#myModalenroute">View more</p>  </a>   </u>       
+                    
+			</figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/cad.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Cad n Code</h2>
+            <p><br> Time: 10AM-1PM<br>Venue:E1-307<br>
+    <u><a data-toggle="modal" data-target="#myModalcadncode">View more</p>  </a>   </u>       
+                    
+			</figcaption>
+    </figure>
+     
+</div>
+<!-- works -->
+<h3></h3>
+<!-- works -->
+<div id="ece"  class=" clearfix grid"> 
+<h2 align=center style="color:white"> ELECTRONICS AND COMMUNICATION ENGINEERING</h2>
+
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/find and diffuse.jpg" alt="img01"/>
+        <figcaption><br>
+            <h2>Find and Defuse</h2>
+            <p><br> Time: 9:30AM-12PM<br>Venue: E2-207<br>
+            <u><a data-toggle="modal" data-target="#myfind">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/e_adapt.jpg" alt="img01"/>
+        <figcaption>
+            <h2>E-adept</h2>
+            <p><br> Time: 1:30PM-3PM<br>Venue:E2-307<br>
+            <u><a data-toggle="modal" data-target="#mye">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/digital hunt.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br>
+            <h2>Digital hunt</h2>
+            <p><br> Time: 9:30AM-10:30AM<br>Venue:E2-306<br>
+            <u><a data-toggle="modal" data-target="#myhunt">View more</p>  </a>   </u>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/path.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Perilous Path Trailer</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E2-105<br>
+            <u><a data-toggle="modal" data-target="#mytrail">View more</p>  </a>   </u>      
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/circdiscern.jpg" alt="img01"/>
+        <figcaption><br><br><br>
+            <h2>Circuit discern</h2>
+            <p><br> Time: 10:30AM-12:00PM<br>Venue:E2-101<br>
+            <u><a data-toggle="modal" data-target="#mydis">View more</p>  </a>   </u>             
+        </figcaption>
+    </figure>
+     
+</div>
+<h3></h3>
+
+<div id="mgm"  class=" clearfix grid"> 
+
+<h2 align=center style="color:white">MANAGEMENT</h2>
+ <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/phineas.jpg" alt="img01"/>
+        <figcaption><br><br><br>
+            <h2>Phineas n'Ferb</h2>
+            <p><br> Time: 10AM-1PM<br>Venue:E4-404<br>
+            <u><a data-toggle="modal" data-target="#myferb">View more</p>  </a>   </u>             
+        </figcaption>
+    </figure>
+    
+	
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/best manager.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Best Manager</h2>
+            <p><br> Time: 9AM-1PM<br>Venue:E6-202<br>
+            <u><a data-toggle="modal" data-target="#mymanager">View more</p>  </a>   </u>        
+		</figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/brand wars.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Brand Wars</h2>
+            <p><br> Time: 9AM-1PM<br>Venue:E4-405<br>
+            <u><a data-toggle="modal" data-target="#mywar">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/fight the nerve.jpg" alt="img01"/>
+        <figcaption><br>
+            <h2>Fight the Nerve</h2>
+            <p><br> Time: 9AM-12PM<br>Venue:E1-207<br>
+            <u><a data-toggle="modal" data-target="#mynerve">View more</p>  </a>   </u>             
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/spell kraze.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Spell Kraze</h2>
+            <p><br> Time: 9AM-11AM<br>Venue:E6-303<br>
+            <u><a data-toggle="modal" data-target="#myspell">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/gab fest 1.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Gab fest</h2>
+            <p><br> Time: 9:30AM-11:00AM<br>Venue:E3-302<br>
+            <u><a data-toggle="modal" data-target="#myModalgabfest">View more</p>  </a>   </u>       
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/co adjuvancy.jpg" alt="img01"/>
+        <figcaption><br><br><br>
+            <h2>Coadjuvancy</h2>
+            <p><br> Time: 9AM-12PM<br>Venue:E2-401<br>
+            <u><a data-toggle="modal" data-target="#myco">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/hindi.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Hindi Gyan Kshetra</h2>
+            <p><br> Time: 10AM-12PM<br>Venue:E3-308<br>
+            <u><a data-toggle="modal" data-target="#myhindi">View more</p>  </a>   </u>           
+        </figcaption>
+    </figure>
+    
+
+     
+</div>
+<h3></h3>
+<div class="footer text-center spacer" >
+<p class="wowload flipInX">
+<a href="www.facebook.com/yuktaha"><img src="images/portfolio/FB.png"/></a> 
+<a href="www.twitter.com/yuktaha2K17"><img src="images/portfolio/twitter.png"/></a> 
+<a href="www.instagram.com/yuktaha"><img src="images/portfolio/isnta.png"/></a> 
+
+<br> <b>© 2017 Yuktaha. All rights reserved.</b>
+</div>
+<!-- # Footer Ends -->
+
+ 
+ 
+ 
+ 
+ 
+ <!--THIS-->
+ <!--CSE-->
+<!-- Modal content-->
+<div id="myModalcodeblitz" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">CODE BLITZ</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you a passionate Coder who likes to play with Algorithmic challenges,then sharpen your wit to face an exhilarating set of problems. Remember speed and accuracy matters a lot. Come up with a solution, code it and beat the clock to prove your prowess</p>
+		<br>
+		
+		<p><b>FORMAT </b><br>
+		• It is a single round coding contest with six problems,spanning for 150 minutes<br>
+		• Problem Statement will be given such that the input to the program and the desired output are defined<br>
+		• Participants are expected to write the code that performs the necessary processing/transformations<br>
+		• A submitted solution is checked against several testcases and a response will be generated<br>
+		• The objective is to solve the as many problems as possible</p>
+		
+		<p><b>RULES</b><br>
+		• Each team should have two members<br>
+		• The team members need not be from the same institution/college<br>
+		• Mobile phones and other materials are not allowed inside the contest arena<br>
+		• Teams involved in any kind of malpractice will be immediatly disqualified<br>
+		• The decision taken by the organizers will be final<br>
+		• Lone wolves are not allowed</p>
+		
+		<script type="text/javascript">
+        function cb() { 
+		var javascriptVariable = "codeblitz";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		 Ram Prakash P : 9489889301<br>
+		 Sailesh       : 9092499086
+		 </p>
+		 <button type="button" onclick="cb()" class="btn btn-default btn-block">Register</button>
+      </div>     
+    </div>
+  </div>
+</div>
+
+
+<div id="myModalwebninja" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Web ninja</h4>
+      </div>
+      <div class="modal-body">
+		<p>Are you someone who loves designing as well as coding? Have you sat hours at an end trying to make a website and loved it?</p>
+		This is Web ninja, a competition where you can showcase your talents in coding as <br>well as designing. Put your skills to the test and design a website as the clock ticks<br>
+		
+		<br><p><b>Round 1</b><br>
+		• There will be an MCQ in all the web technologies which will test your design skills<br>
+		• There will be 30 questions which has to be answered in 30 minutes</p>
+		
+		<p>Round 2</b><br>
+		• You will be given a template on spot, out of which you need to create the nearest match of it<br>
+		• The team who creates an exact or nearest match within a short period of time will be declared as winners</p>
+		
+		<p><b>RULES</b><br>
+		• A team must consists of 2 members<br>
+		• Team members can be from different colleges<br>
+		• Usage of internet, mobile phones and other electronic gadgets is strictly prohibited<br>
+		• Basic knowledge in HTML, CSS and JavaScript is needed<br>
+		• Decision of the Judges will be final</p>
+		
+		<script type="text/javascript">
+        function wn() { 
+		var javascriptVariable = "web";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		Vasanthan S : 9894753624<br>
+		Rashmi :9443314141</p>
+
+		<button type="button" onclick="wn()" class="btn btn-default btn-block">Register</button>
+		</div>    
+    </div>
+  </div>
+</div>
+<div id="myModalandroxus" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Androxus</h4>
+      </div>
+      <div class="modal-body">
+		<p> Have you always been fascinated by the world of Android? Then brace yourselves for 'ANDROXUS 2K17'.</p>
+		<br> Here's your chance to prove that you're unbeatable in your app development skills</br>
+		
+		<p><br><b>Round 1</b></br>
+		• The first round will be a debugging round in which the participants will be debugging a program<br>
+	    • The selection will be based on the maximum number of errors found and least time taken to correct it<br>
+		• Eclipse IDE will be used for this round<br></p>
+		
+		<p><br><b>Round 2</b></br>
+		• This is the round where you will be exhibiting your android skills<br>
+		• You will be given with the problem statement for which you need to showcase your skills<br>
+		• The winners will be selected on the basis of UI/UX, performance, Memory Space usage<br></p>
+		
+		<p><br><b>RULES</b></br>
+		• Competitors must develop only native android apps<br>
+		• Competitors must bring their own android phones and connectors in case they need<br> 
+		• Participants must only work with android studio<br></p>
+		
+		<p><br><b>CONTACT DETAILS</b></br>
+		Akil Ayyapan R A : 9787919223<br>
+        Krishna Prasad A S : 8608648420</p>
+		
+		<script type="text/javascript">
+        function ax() { 
+		var javascriptVariable = "androxus";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<button type="button" onclick="ax()" class="btn btn-default btn-block">Register</button>
+		
+      </div>    
+    </div>
+  </div>
+</div>
+
+<div id="myModalcarbinecoders" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Carbine Coders</h4>
+      </div>
+      <div class="modal-body">
+        <p>Explore a new dimension of coding through <b>Carbine Coders 2K17!!</b> Quick-witted people with basic coding skills are the ones we’re looking for. 
+		The event will also test the swift thinking abilities and problem solving skills of the participants.</p>
+		
+		<p><b>Round 1: Get acquainted with Python</b><br>
+		• Have you always wanted to learn Python, but never got around to it? Take your first baby steps in Python with us. <br>
+		• You’ll be provided with a few programs in python, where the lines of code are jumbled.<br>
+		• Rearrange the lines of code to pass the test cases and stay alive in the competition.<br>
+		  <b>P.S. </b>You’ll have access to the Internet, in case you need to sort out your syntactical queries.<br>
+		  <br><b>Selection criteria:</b><br>
+		  The team that solves the most number of problems in the given 45 minutes will qualify for the next round.</p>
+		
+		<p><b>Round 2: A twist in the tale</b><br>
+		• Each team will be provided with two different problem statements,one for each member.<br>
+		  <b>P.S. </b> Expect the unexpected.<br>
+		  <br><b>Selection criteria:</b><br>
+		  The team that solves both the problems statements the fastest will be declared the winners.</p>
+		
+			
+		<p><b>RULES</b><br>
+		• Each team must consist of two members, not necessarily from the same college<br>
+		• Mobiles phones and other electronic gadgets are strictly prohibited<br>
+		• Decisions taken by the Judges will be final and binding</p><br>
+		
+		
+		
+		Venue:  Oracle Lab<br>
+		Date: 17/02/2017<br>
+		Time: 9.30am (Round 1)<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2.00pm (Round 2)<br></p>
+		
+		<p><b>Event Co-ordinators:</b><br>
+		 Hari Nandha J R : 9003791901<br>
+		 Sai Shruthi B    : 9566990516</p>
+		 
+		 <script type="text/javascript">
+         function cc() { 
+		 var javascriptVariable = "carbine";
+		 window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		 
+		 <button type="button" onclick="cc()" class="btn btn-default btn-block">Register</button>
+		 
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
+<div id="myrenoirssculptivision" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Renoir's Sculptivision</h4>
+      </div>
+      <div class="modal-body">
+		<p> Idea's change the way a person can think. It is based on how we express them. Posters are the way of exhibiting ideas.</p>
+		<br> We have come with the theme. Try to do something innovative in a way that will inspire generations</br><br>
+		
+		<p><b>FORMAT</b><br>
+			• On-spot theme will be given<br>
+			• Only one round is conducted on which the winner will be selected<br>
+			• The working platform will be <b>Adobe Photoshop CC 2015</b><br>
+			• The maximum time Limit will be 120 minutes</p>
+		
+		<p><b>RULES</b><br>
+			• A team can consists of maximum two members<br>
+			• Teams can consists of students form different colleges<br>
+			• Plagiarism is not allowed<br>
+			• Usage of patterns must be priorly informed to the co-ordinators<br>
+			• Minimum knowledge is required<br>
+			• Judges decision is final</p>
+			
+		<p><b>CONTACT DETAILS</b><br>
+		    Mayil vahanam P : 9487748910<br>
+			Manoj           : 9952318334
+			
+			<script type="text/javascript">
+			function rs() { 
+			var javascriptVariable = "renior";
+			window.location= "eventr.php?name=" + javascriptVariable; 
+			}
+			</script>
+			
+		<button type="button" onclick="rs()" class="btn btn-default btn-block">Register</button>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+    <!--THIS-->
+	
+<!--EEE-->	
+<div id="myModalcircbuzz" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Circbuzz</h4>
+      </div>
+      <div class="modal-body">
+      <p>How POWERFUL is your Brain? 
+      This event is to test understanding of basic electronic engineering concepts by answering objective type questions on Moodle platform. The questions will cover the fields of electronic devices, embedded systems, signal processing, and power electronics</p>
+
+	  <p><br><b>ROUND 1</b><br>		
+      •	Preliminary round consists of 20 MCQs.<br>
+      •	Top 6 teams will be selected based on their score.<br>
+      •	In case of tie, time taken will also be considered.<br></p>
+
+	  <p><br><b>ROUND 2</b><br>		
+      • Mixed Bag round consists of different set of questions from given areas, conducted like a buzzer round.<br>
+      •	Top 2 teams will be announced as winners based on their scores.<br>
+      •	In case of tie, extra questions will be added.<br></p>
+
+
+	   <p><br><b>RULES</b></br>
+	   • Each team should consists 2 members<br>
+       • Use of mobile phones and other electronic gadgets except calculators are strictly prohibited<br>
+	   • Team members can be from different colleges<br>
+       • Judges decision will be final<br></p> 
+     
+	   <p><br><b>CONTACT DETAILS</b><br>
+		    Ragavi S : 8754211705<br>
+            Vimal Das S: 9003342880</p>
+			
+			<script type="text/javascript">
+			function cirr() { 
+			var javascriptVariable = "circbuzz";
+			window.location= "eventr.php?name=" + javascriptVariable; 
+			}
+			</script>
+			
+			<button type="button" onclick="cirr()" class="btn btn-default btn-block">Register</button>
+      </div>
+    </div>
+	</div>
+</div>
+
+<div id="myModaledoodle" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">e-Doodle</h4>
+      </div>
+      <div class="modal-body">
+      <p>To design basic electronic circuits such as logic gates and analog circuits and debug the circuits by locating faulty parts, identifying wrong design and wiring, using digital multimeter and oscilloscope</p>
+	   
+	   <p><br><b>Round 1</b></br>		
+       MCQs: 30 questions in 30 minutes (in case of tie,time taken to finish would be considered)<br></p>
+
+       <p><br><b>Round 2</b></br>		
+	   Circuit Designing and Debugging (In case of tie on the spot questions would be asked and the team that gives the quickest correct answer would be qualified).<br></p>
+
+	   <p><br><b>RULES</b></br>
+	   • Team can consists of maximum of 3 members<br>
+       • Mobile phones are strictly prohibited<br>
+       • Judges decision would be final<br></p>
+	
+	  <p><br><b>CONTACT DETAILS</b><br>
+      Padmakumari P: 9994569577<br>
+      Mohan Kumar N: 9600403815</p>
+	  
+	    <script type="text/javascript">
+        function ed() { 
+		var javascriptVariable = "edoodle";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+	  
+	  <button type="button" onclick="ed()" class="btn btn-default btn-block">Register</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="myModalelectrobolt" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Electro Bolt</h4>
+      </div>
+      <div class="modal-body">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Straighten yourself up, twist your flair out”<br><br>
+OBJECTIVE: To test the understanding of basic electrical engineering concepts by answering objective type questions on Moodle platform.
+    </p>
+	  
+	 <p><b>Round 1</b><br>		
+		Multiple choice questions (MCQs) on Moodle platform</p>
+
+
+	<p><b>Round 2</b><br>		
+	 • Application based questions<br>
+     • Two members per team <br>
+     • 6 teams will be selected for the second round</p>
+
+	<p><b>RULES</b><br>
+	 • 2 per team<br>
+     • Mobile phones are strictly prohibited<br>
+     • Judges decision would be final</p>
+	 
+     <p><b>CONTACT DETAILS</b><br>
+     Santhosh T : 96291 88559<br>
+     Rega G : 87543 09685</p>
+	 
+	 <script type="text/javascript">
+     function ebb() { 
+	 var javascriptVariable = "electro";
+	 window.location= "eventr.php?name=" + javascriptVariable; 
+	 }
+	 </script>
+	 
+	  <button type="button" onclick="ebb()" class="btn btn-default btn-block">Register</button>
+      </div>     
+    </div>
+  </div>
+</div>
+
+  
+</div><div id="myModalvolttackle" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Volt Tackle</h4>
+      </div>
+      <div class="modal-body">
+       <p>This event is to test the knowledge on Design and Debugging of electric circuits. Participants should analyze the given components, design a given circuit or complete a partly designed circuit and ensure that the circuit is functioning as expected</p>
+	  
+	  <p><b>Round 1</b><br>		
+      •	This is a written test round.<br>
+      •	Participants will be given questions on finding the errors in the circuit</p>
+
+      <p><b>Round 2</b><br>		
+      •	To design circuits for the given specification<br>
+      •	The students will be given incomplete circuits and asked to find the missing parts and complete the circuit</p>
+
+      <p><b>RULES</b><br>
+	  • Components would be provided<br>
+	  •  Three members per team.<br>
+      • Judges decision will be final<br>
+      • No electronic gadgets are allowed </p>
+ 
+	 <p><b>CONTACT DETAILS</b><br>
+     Gunasanthi R : 8489461807<br>
+     Vijay Shankar S : 7708990599</p>
+	 
+	<script type="text/javascript">
+    function vt() { 
+	var javascriptVariable = "volttackle";
+	window.location= "eventr.php?name=" + javascriptVariable; 
+	}
+	</script>	 
+	 
+	 <button type="button" onclick="vt()" class="btn btn-default btn-block">Register</button>
+
+      </div>
+     </div>
+  </div>
+ </div>
+ 
+<!--MECH-->
+<div id="mycontraption" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contraption</h4>
+      </div>
+      <div class="modal-body">
+		<p>Tired of being penalized for over engineering???</p>
+		<p>For all those who love to complicate things – start your train of thoughts, and come up with all the bizarre and uncommon ideas and put them together to accomplish the most common task.
+		<br>Make your own over engineered mechanism to achieve a simple task and get rewarded for it. The more the merrier.</br> 
+        <br>Go ahead, make the life tougher!!!!<br></p>
+        
+		<p><b>GOAL STATEMENT</b><br>
+		• Use various forms of energy conversion techniques to accomplish the goal<br>
+        • <b>A BALL SHOULD FALL INSIDE THE BOX</b><br>
+        • To achieve the requirements given in the format of the event</p>
+       
+       <p><b>FORMAT</b><br> 
+	   • A ball should fall inside the box of dimension 20cm * 20cm * 15cm (l*b*h)<br>
+       • The box should be placed 75cm from the model<br>
+	   • A normal tennis ball size can be used<br>
+       • Maximum number of pitches outside the box will be given maximum points<br>
+       • The arrangement should have minimum number of 5 steps before completion of final task<br>
+       • Automatic start and parallel steps will be awarded maximum points. No points will be awarded for manual start<br>
+       • The entire contraption, while operating, shall fit and remain completely within an imaginary box whose dimensions are 6 feet * 6 feet* 5 feet<br>
+       • The teams are not provided any walls or tables for the model<br>
+       • Power supply of 230V / 50 Hz and a flat ground for display<br>
+       • Necessary tool kits should be brought by the participants</p>
+
+	   <p><b>RULES</b><br> 
+       • The number of members per team is restricted to 5<br>
+       • Only 1 team member may interact with the model once the evaluation begins. This applies to resetting the model too<br>
+       • The model must complete the task as described in the goal statement<br>
+       • Teams must use minimum of 3 energy conversions<br>
+       • The model must take no more than 15 minutes per run<br>
+       • A step in the model should be considered as a transfer of energy from one action to another.  Identical transfers of energy in succession will be considered as one step<br> 
+	   • For example, a set of dominoes falling onto each other will be considered as one step.<br>
+       • Any loose or flying objects must remain within the set boundaries of the model<br>
+       • Contestants are responsible for removing their arrangement and any debris left after the completion<br>
+       • Core committee members reserve the right to disqualify any team violating the rules or indulging in misbehaviour<br>
+       • Abstract must be submitted on or before <b>Feb 15, 2017</b> to <b>vision.mech@psgitech.ac.in</b><br>
+       • Use of loose electrical connections, flames and hazardous materials in the arena room should be avoided</p>
+
+       <p><b>SETUP</b><br>
+	   • Setup time before first attempt – 120 minutes<br>
+       • Number of chances to show model – 2<br>
+       • Setup time between two trials – 20 minutes<br>
+       • Second trial given will have point reduction of 10% from the scores obtained</p>
+
+	   <p><b>JUDGING CRITERION</b><br>
+	   • Innovation<br>
+       • Visibility of steps<br>
+       • Theme based demonstration<br>
+       • Continuity without any human intervention<br>
+       • Recycled/scavenged materials used<br>
+       • Number of conversions</p>
+
+		<p><b>PENALTIES</b><br>
+	    • Run Length exceeded<br>
+        • Human Intervention<br>
+        • Deviation from the initial design report</p>
+
+        <p><b>ABSTRACT DETAILS</b><br>
+        • Details of all participants with contact numbers<br>
+        • E-mail ID for further contact<br>
+        • Summary of contraption<br>
+        • Total number of energy conversions<br>
+        • Number of innovative steps<br>
+        • Detailed write up of each and every step</p>
+
+        <p><b>CONTACT DETAILS</b><br>
+        Mani Shankar : 9677437659<br>
+        Jothi Saravanan : 9042073063</p>
+		
+		<script type="text/javascript">
+        function contra() { 
+		var javascriptVariable = "contraption";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+        <button type="button" onclick="contra()" class="btn btn-default btn-block">Register</button>
+		
+      </div> 
+    </div>
+  </div>
+</div>
+
+<div id="mytechiequiz" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Techie Quiz</h4>
+      </div>
+      <div class="modal-body">
+		<p>Hey Wizards!!!</p>
+		
+		<p>Real learning comes about when the competitive spirit has ceased. It's time for your brain to function hard and fast. 
+		Unleash the real and smart engineer which is within you. Don't let your wits down! So get ready folks to showcase your talents.<br>
+        <br>“ A strong opponent simulates the competitor in you ”</br></p>
+
+		<p><b>Round 1</b><br>
+		• It is a written test comprising of 30 questions of time duration 20 minutes<br>
+		• All the teams appearing for the quiz are eligible for round 1<br>
+		• In case of a tie breaker, teams will be chosen according to the time of completion of the test</p>
+		
+		<p><b>Round 2</b><br>
+		• This is the final round and it comprises of several internal rounds<br>
+		• Total marks of all internal rounds will be taken into account and the winner is decided</p>
+		
+		<p><b>RULES</b><br>
+		• A team should consist of 2 members<br>
+        • Mobile phones and other electronic gadgets are strictly prohibited<br>
+	    • Team members can be from different colleges<br>
+		• Lone Wolves are not allowed<br>
+        • Judges decision is final<br>
+        • ID card or any other forms of college identity is must to register</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		Arun Kumar : 7339116465<br>
+		Aravinth   : 7598608655</p>
+		
+		<script type="text/javascript">
+        function tq() { 
+		var javascriptVariable = "techquiz";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<button type="button" onclick="tq()" class="btn btn-default btn-block">Register</button>
+
+		</div>
+     </div>
+	</div>
+</div>
+
+<div id="mymrmachinist" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Mr.Machinist</h4>
+      </div>
+      <div class="modal-body">
+		<p>A Battle between time and perfection on your machining and welding abilities</p>
+		
+		<p>God creates the world, engineers shape the world!!. Here its your turn to shape the things in a specific way.</p>
+		
+		<p><b>Round 1</b><br>
+		• Written test consisting of 30 multiple choice questions</p>
+		
+		<p><b>Round 2</b><br>
+		• Turning process : participants will be allowed to turn the workpiece within 60 minutes as per the given diagram</p>
+		
+		<p><b>Round 3</b><br>
+		• Welding process : turned workpiece has to be welded with the given base plate (ARC welding)</p>
+		
+		<p><b>RULES</b><br> 
+		• Shoes compulsory</li>
+		• All the tools and work material will be provided to the participants<br>
+		• In the team of  2 , they can be irrespective of the college<br>
+		• Participants will be provided with the drawing on the spot<br>
+		• Results will be based on the accuracy and decisions will be made by the Judges<br>
+		• If found any discrepancy during the event, then the team will be disqualified<br>
+		• No mobile usage is permitted during the written test</p>
+
+		<p><b>CONTACT DETAILS</b></br>
+		Praveen Kumar : 8681882206</br>
+        Saravanaraj   : 9751944118</p>
+		
+		<script type="text/javascript">
+        function mm() { 
+		var javascriptVariable = "machinist";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<button type="button" onclick="mm()" class="btn btn-default btn-block">Register</button>
+
+      </div>
+    </div>
+   </div>
+</div>
+
+<div id="mythirddimension" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Third Dimension</h4>
+      </div>
+      <div class="modal-body">
+		<p>  Third dimension is an event to test your excellence in 3D design software where you race against time to generate the best design. This event will test your expertise over the various design tools and the time management skills<br>
+		So, get ready with your virtual drafters to dazzle the world</p>
+		
+		<p><b>Round 1</b><br>
+		• It consists of 30 MCQ's(Multipe choice questions)<br>
+		• The alloted time will be 20 minutes<br>
+		• Mark allotment : +1 for every correct answers and -0.3 for every wrong answer <b>(negative mark)</b></p>
+		
+		<p><b>Round 2</b><br>
+		• The participants need to design a solid model within 60 minutes<br>
+		• The solid objects will be given at the time of the event<br>
+		• The participents are required to create design in <b>Solid Works 2014</b></p>
+		
+		<p><b>JUDGING CRITERION</b><br>
+		Prizes will be given on the basis of
+		• Software skills<br>
+        • Shortcuts used<br>
+        • Time<br>
+        • Written test will be considered</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		Siddharthan : 9884814208<br>
+        Harris Sam  : 7904227703</p>
+		
+		<script type="text/javascript">
+        function td() { 
+		var javascriptVariable = "dimension";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="td()" class="btn btn-default btn-block">Register</button>
+		
+		</div>
+     </div>
+	</div>
+</div>
+
+
+<!-- CIVIL-->
+
+<div id="myModalzedifice" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Zenith Edifice</h4>
+        </div>
+        <div class="modal-body">
+        <p>Be ready to achieve greater heights with broader minds. Pursue your creativity to shape up a skyscraper using the provided materials like paper, fevicols, cardboard etc. The stature and the soundness of the structure take you close to the goal</p>
+     
+	 	<p><b>Round 1: Technical Quiz</b><br>
+		<b>Round 2: Finals</b></p>
+		
+		 <p><b>RULES</b><br>
+         • This event comprises of 2 rounds<br>
+         • Each team should consist of 3 members.<br>
+         • Selected teams will be allowed to build a structure<br>
+         • Structure should be tall,less in weight<br>
+         • Materials will be provided<br>
+		 • The decision of the jury will be final</p>
+		
+        <p><b>CONTACT DETAILS</b><br>
+           Lenin J : 8682823710<br>
+		   Caroline Suganthi N S : 9787460511</p>
+		   
+		   <script type="text/javascript">
+			function ze() { 
+			var javascriptVariable = "zenith";
+			window.location= "eventr.php?name=" + javascriptVariable; 
+			}
+			</script>
+
+       <button type="button" onclick="ze()" class="btn btn-default btn-block">Register</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myModalvirtuoso" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <br><br><h4 class="modal-title">Virtuoso</h4>
+      </div>
+      <div class="modal-body">
+      <p>Do you go by your intuition? Then why not pay here a visit! This event provides you ample chances to assess the versatility of the line-up, on the various aspects of Civil Engineering which involves visual perception, intelligence and situation tackling skills</p>
+
+	   <p><b>Round 1 – Visual perception skills<br>
+	   Round 2 – Quiz on renowned civil personalities <br>
+	   Round 3 – Set the structure right<br>
+	   Round 4 – Situation tackling skills</b></p>
+	   
+	    <p><b>RULES</b><br>
+	   • Each team should contain 2 or 3 members<br>
+       • This event contains 4 rounds<br>
+       • Each round will have elimination<br>
+	   • The decision of the jury will be final</p>
+	 
+	 <p><b>CONTACT DETAILS</b><br>
+          Meena S : 9524737230<br>
+          Vyshnav C : 9944217636</p>
+		  
+		  <script type="text/javascript">
+		  function vo() { 
+		  var javascriptVariable = "virtuoso";
+		  window.location= "eventr.php?name=" + javascriptVariable; 
+		  }
+          </script>
+		  
+	  <button type="button" onclick="vo()" class="btn btn-default btn-block">Register</button>
+      
+      </div>   
+    </div>
+  </div>
+</div>
+
+<div id="myModalenroute" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">En route</h4>
+      </div>
+      <div class="modal-body">
+
+      <p>Roads were made for journeys, not destinations. Cobble up the best roadway and bag the best path to victory using the provided materials. Neat construction, riding comfort and stability should be your strategy</p>
+  
+       <p><b>Round 1: Technical quiz<br>
+             Round 2:</b><br>
+			 • Top 5 teams will be selected<br>
+			 • Desing the road as per <b>IRC Code</b><br>
+             • Model of the road should  be constructed according to the given plan or requirement<br>
+			 • Constructed road will be checked for alingment, aesthetic apperance, undulations, proper placement of Sign boards<br>
+             • Requires basic knowledge of  highway and traffic engineering<br>
+             • The decision of the jury will be final</p>
+			 
+			 <p><b>REFERENCE</b><br>
+			 <b>IRC 93 : 1985</b><br>
+			 <b>IRC 67 : 2012</b><br>
+			 <b>IRC 37 : 2012</b><br></p>
+			 
+			   <p><b>RULES</b><br>
+				• Each team should contain 5 members<br>
+
+			 <p> <b>CONTACT DETAILS</b><br>
+                 Vishnu S : 8807704832<br>
+                 Shinuja Ranjini S : 9629514065</p>
+				 
+				<script type="text/javascript">
+				function en() { 
+				var javascriptVariable = "enroute";
+				window.location= "eventr.php?name=" + javascriptVariable; 
+				}
+				</script>
+	  
+	  <button type="button" onclick="en()" class="btn btn-default btn-block">Register</button>
+	  
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="myModalcadncode" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cad n Code</h4>
+      </div>
+      <div class="modal-body">
+      <p>Drawing is like making an expressive gesture with the advantage of permanence. Here we make building drawing even more interesting. Seize the platform where you can  test the IS code expertise and the ability of the duo, to incorporate the standards in Auto CAD drawing</p>
+	   
+	   <p><b>RULES</b><br>
+	         • Each team should contain 2 members<br>
+             • The event contains 2 rounds<br>
+             • Requires basic knowledge of IS codes and AUTOCAD software</p>
+
+		<p><b>Round 1</b><br>
+		     • Code cracking<br>
+             • Code books will be provided<br></p>
+        <p><b>Round 2 : CAD drawing</b><br>
+             • The participants will have to draw a plan of  a residential building  in AutoCAD<br>
+			 • Software as per  the mentioned conditions<br>
+			 • Winners will be decided based on the design and effective usage of the plot<br>
+             • The decision of the jury will be final</p>
+			 
+      	 <p> <b>CONTACT DETAILS</b><br>
+             Akhil S R : 8807424215<br>
+             Subashini K : 9566701597</p>
+			 
+			<script type="text/javascript">
+			function cnc() { 
+			var javascriptVariable = "cad";
+			window.location= "eventr.php?name=" + javascriptVariable; 
+			}
+			</script>
+	  
+	  <button type="button" onclick="cnc()" class="btn btn-default btn-block">Register</button>
+	  
+      </div>     
+    </div>
+  </div>
+</div>
+
+<!--ECE-->
+<div id="myfind" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Find and defuse</h4>
+      </div>
+      <div class="modal-body">
+		<p>All adventurous boys and girls latch onto your wildest dreams and hunt for fabulous treasures.<br> 
+		Make your way firing beams of infrared light with the components provided to trigger automated knock-down of target to find the clues. 
+        “Below the bridges or under the stool, before the treasure, hunt down the clues”.
+        Think fast! Our gear is packed and ready to go.</p>
+		
+		<p><b>Round 1</b><br>
+	 	• The clues can be obtained by detecting the receiver within the given duration<br> 
+        • Time duration: 15 minutes</p>
+		
+		<p><b>Round 2</b><br>
+		• Solve the digital logic using the clues<br>
+        • Time duration: 15 minutes</p>
+		
+		<p><b>RULES</b><br>
+		• Participants must bring their college identity card<br>
+	    • Electronic gadgets like calculator, mobile phones should not be used<br>
+	    • Participants should be present at the venue half an hour prior to the start of the event</p>
+		
+		<p><b>CONTACT DETIALS</b><br>
+        Varsini B  	   : 9943549934</br>
+		Akshaya S	   : 8489018188</br>
+        Ajith M	   : 9787201199</p>
+		
+		<script type="text/javascript">
+        function fad() { 
+		var javascriptVariable = "diffuse";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="fad()" class="btn btn-default btn-block">Register</button>
+
+		</div>     
+    </div>
+  </div>
+</div>
+
+<div id="mye" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">E-Adept</h4>
+      </div>
+      <div class="modal-body">
+		<p>Let’s electrify our brain to debug the error and execute the simulation design to spark the knowledge of students on electronic circuit design<br>
+		The main focus of the event is to design the circuit for the given specifications. Identify the given behavior of the circuit and enhance your designing capability.
+		Technical problem solving involves designing (objective). A specific case will be provided to the participants. 
+		Using technical skills, participants need to design the circuit for the given problem</p>
+		
+		<p><b>Round 1</b><br>
+		•	Written test (objective) covering the fundamentals of digital, analog circuits and linear integrated circuits<br>
+        •	15 Multiple choices questions will be given<br>
+        •	No negative markings<br>
+        •	Based on the prelims score, teams will be selected for the final round<br>
+        •	Time duration: 30 minutes</p>
+		
+		<p><b>Round 2</b><br>
+		• Time duration: 45 minutes<br>
+        • Using the PSPICE/LTSpice software, design the circuit</p>
+		
+		<p><b>RULES</b><br>
+		• It is a team event which comprise of 2 members<br>
+	    • Participants must bring their college identity card<br>
+	    • Electronic gadgets like calculator, mobile phones should not be used<br>
+	    • Participants should be present at the venue half an hour prior to the start of the event</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		 Pooja S : 7339439103<br>
+         Karthick P K : 9487886916<br>
+         Nethradevi T : 9159829596</p>
+		 
+		<script type="text/javascript">
+        function et() { 
+		var javascriptVariable = "eadapt";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="et()" class="btn btn-default btn-block">Register</button>
+
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="myhunt" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Digital Hunt</h4>
+      </div>
+      <div class="modal-body">
+		<p>This enthusiastic hunt invades our mind with digital locks unlocking via applied thoughts of electronics which provides us with challenging and enigmatic digital IC’s numerically procreated. 
+		   The main goal of the event is to motivate and make familiarize the digital innovative platform by exploring its applications</p>
+		 
+		<p><b>Round 1</b><br>
+		• 25 Multiple choice questions will be given<br>
+        • Time duration: 30 minutes<br>
+	    • Teams for the final round will be shortlisted based on preliminary scores</p>
+		
+		<p>Round 2</b><br>
+		• Components and equipments will be provided<br>
+        • Time duration: 1 hour <br>
+	    • Prizes will be awarded based on the performance</p>
+		
+		<p><b>RULES</b><br>
+		• The team can have maximum of 3 members<br>
+	    • Participants must bring their college identity card<br>
+	    • Electronic gadgets like calculator, mobile phones should not be used<br>
+	    • Participants should be present at the venue half an hour prior to the start of the event</p>
+		
+		<p><b>CONTACT DETAIS</b><br>
+		Selva Ganapathy V : 9659655458<br>     
+        Vasu R : 9597988915<br>
+        Nandha Kumar S : 9486864078</p>
+		
+		<script type="text/javascript">
+        function dh() { 
+		var javascriptVariable = "digital";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="dh()" class="btn btn-default btn-block">Register</button>
+
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="mytrail" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Perilous Path Trailer</h4>
+      </div>
+      <div class="modal-body">
+		<p>The world is emboldened with robots. Is your bot capable of trailing the wrecks? Then, go ahead to venture the labyrinth with your robot!<br>
+		To design a robot which follows a particular trajectory and proceed with its course of action, avoiding the obstacles.
+		The path is a black line over the white surface with ups and downs, filled with hurdles (LINE FOLLOWER WITH OBSTACLE DETECTION)</p>
+		
+		<p><b>TRACK DESCRIPTION</b><br>
+		•	The width of the track will be 4cm<br>
+        •	There shall be no crossovers<br>
+        •	Turns may contain curves, sharp edges (90°) and U bends<br>
+        •	The lines will be black on a white background</p>
+		
+		<p><b>OBSTACLE DESCRIPTION</b><br>
+		•	On one place on the course, the line is interrupted by an obstacle of dimension <b>5cm x 5cm x 5cm</b>. The interruption won’t be placed in a curve<br>
+        •	The robot has to drive around this obstacle to reach the continuation of the line</p>
+
+		<p><b>RULES</b><br>
+		•	Participants should bring the assembled robot<br>
+        •	Once a robot has crossed the starting line it must remain fully autonomous, or it will be disqualified<br>
+        •	A robot that wanders off the arena surface will be disqualified. A robot shall be deemed to have left the arena when any wheel, leg, or track has moved completely off the arena surface<br>
+        •	Any robot that loses the line of course must reacquire the line at the point where it was lost, or at any earlier point. (e.g. already traversed path)<br>
+        •	The bot dimension must be within 15cm x 20cm x 20cm<br>
+        •	Maximum number of students per team is four<br>
+        •	Time duration for the entire event is 2 hours 30 minutes<br>
+		•	Participants must bring their college identity card.
+        •   Participants should be present at the venue half an hour prior to the start of the event</p>
+
+		<p><b>CONTACT DETAILS</b><br>
+		 Maharasi S : 9789918511<br>                                                                                           
+		 Arjhun M : 9597703663<br>
+		 Jayeeta J : 9500479375</p>   
+
+		<script type="text/javascript">
+        function ppt() { 
+		var javascriptVariable = "perilouspath";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		 <button type="button" onclick="ppt()" class="btn btn-default btn-block">Register</button>
+
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="mydis" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Circuit Discern</h4>
+      </div>
+      <div class="modal-body">
+		<p>Zeal for creativity? Then you are invited further! </p>
+		
+		<p>Crusade to embellish the creative useful product from the components provided. 
+		It isn’t that hard! The lucid components make your creative brains awake. Go for it and do it!</p>
+		
+		<p><b>Round 1</b><br>
+		• Quiz, based on the fundamentals of electronics<br>
+		• Time duration will be 15 minutes</p>
+		
+		<p><b>Round 2</b><br>
+		• Problem statements, testing the problem solving skills, team work and subject knowledge, will be given<br>
+		• Time duration will be 20 minutes</p>
+		
+		<p><b>Round 3</b><br>
+		• Products must be designed from the given components. This round tests creativity and technical skills in an organized manner<br>
+		• Time duration will be 60 minutes</p>
+		
+		<p><b>RULES</b><br>
+		• A team can have a maximum of 2 or 3 members<br>
+        • Discussion with neighbouring team is not allowed<br>
+        • Participants must bring their college identity card<br>
+        • Electronic gadgets like calculator, mobile phones should not be used<br>
+        • Participants should be present at the venue half an hour prior to the start of the event</p>
+
+		<p><b>CONTACT DETAILS</b><br>
+		 Ranjit kumar B : 8526729462 <br>
+         Anusha G : 9629420120<br>
+         Nagamai S : 7598058656</p>
+		 
+		<script type="text/javascript">
+        function ccd() { 
+		var javascriptVariable = "circuit";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button"  onclick="ccd()" class="btn btn-default btn-block">Register</button>
+
+      </div>     
+    </div>
+  </div>
+</div>
+
+<!--MANAGEMENT-->
+<div id="myModalgabfest" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Gab fest</h4>
+      </div>
+	  <div class="modal-body">
+       
+      <p><b>"Speaking is poetry, which can make dance the dullest beanbad of a Heart"</b><br>
+             Gab Fest is an event to check your cogent skills and your ability to bluff admist the crowd</p>
+	  
+	  
+	  <p><b>Round 1</b><br>		
+      • A crossword puzzle, a word maze to brainstorm<br>
+      • Ranking would be based on time taken and the number of correct answers<br></p>
+
+	  <p><b>Round 2:FINDING JOURNO</b><br>		
+       • A celebrity’s image will be displayed<br>
+       • The participants will play the role of a reporter as in the press meet</p>
+	   
+      <p><b>Round 3:BLUFF MASTER</b><br>		
+         “If you can’t Beat them, Bluff them”<br>
+        • The participants will be provided with a word<br>
+        • They have to bluff the meaning of the word</p>
+	
+		<p><b>RULES</b><br>
+		• A team Should consists of 2 members<br>
+		• Use of electronic gadgets such as mobile phones is not allowed<br>
+		• Judges decision will be final</p>
+
+	   <p> <b>Contact Details</b><br>
+       Vignesh Kumar S : 9629000646<br>
+	   Naveen S K : 9942468832</p>
+	   
+	   <script type="text/javascript">
+        function gf() { 
+		var javascriptVariable = "gabfest";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+	   
+	<button type="button" onclick="gf()" class="btn btn-default btn-block">Register</button>
+      
+	  </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="myferb" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Phineas n' Ferb</h4>
+      </div>
+      <div class="modal-body">
+		<p>Have your ever been the the best "Bob the builder"?.To prove your point, come and have your stage here.</p>
+		It's time for you to show your team spirit and time management ability. If you are crazy about kinetics, then you will be at pinnacle to prove your talent
+		
+		<p><b>Round 1</b><br>
+		• This round is to analyze the co-ordination skills of the members of your team<br>
+		• Time constrains are also taken into account for entering the final round<br>
+		• Time duration : 5 minutes</p>
+		
+		<p><b>Round 2</b><br>
+		• Selected teams should overcome interesting hurdles to reach the end of the maze<br>
+		• Top 2 teams will be announced as winners based on their thinking ability<br>
+		• Time duration :15 minutes</p>
+		
+		<p><b>RULES</b><br>
+		• Each team should have 3 members<br>
+		• In case of any foul movement, the teams will be disqualified<br>
+		• Usage of electronic gadgets is not prohibited<br>
+		• Judges decision will be final</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		Gowtham M : 9944562378<br>
+		Vardhini P R : 9487664622</p>
+		
+		<script type="text/javascript">
+        function pnf() { 
+		var javascriptVariable = "phineas";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<button type="button" onclick="pnf()" class="btn btn-default btn-block">Register</button>
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="mymanager" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Best Manager</h4>
+      </div>
+      <div class="modal-body">
+        <p>Good at keeping yourself cool when the fat hits the fire? Then it’s time already! Come show us what you’ve got! 
+		Showcase your talent in the multi-round managerial event, prove your worth and become the best of all aspiring managerial candidates. 
+		Step in for the real test of the skill! </p>
+		
+		<p><b>Round 1: CRACK IT!</b><br>
+		An aptitude based written test to test your math skills</p>
+		
+		<p><b>Round 2: FLIP-FLOP</b><br>
+		This round is to test your presence of mind and argumental skills
+		The contestants have to talk about the pros and cons of the given product, and they have to keep switching between the pros and cons whenever the panel interrupts</p>
+              
+		<p><b>Round 3: CARPE DIEM</b><br>
+		    The contestants have to sell the product given and make the best profit. This round tests your communication and marketing strategy</p>
+
+		<p><b>Round 4: STRESSED OUT ALREADY?</p><br>
+		This round puts you into real dilemma. There will be rapid fire questions and situations where you have to make the best possible decision</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+		Abishek P : 7397599883<br>
+        Dhanush S : 9597426088</p>
+		
+		<script type="text/javascript">
+        function bm() { 
+		var javascriptVariable = "manex";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="bm()" class="btn btn-default btn-block">Register</button>	  
+      </div>     
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="mywar" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Brand Wars</h4>
+      </div>
+      <div class="modal-body">
+		<p>Adept at inter connecting? Then go ahead. Embellish your analysing skills and pave the way for audacious judgement.
+           Show off your zeal for creativity and cohesiveness</p>
+		   
+		<p><b>PRELIMS</b><br>
+		Crack the paradox in time and embark. Questionnaire is to be cracked with pen and paper</p>
+		
+		<p><b>FINALS</b><br>
+		• At the zenith of your performance and time utilization, the door will be opened to victory<br>
+		• Decipher the code, be an Illuminati</p>
+		
+		<p><b>RULES</b><br>
+        • The team must have maximum of 2 members<br>
+        • The use of Electronic Gadgets such as mobile phones is not allowed<br>
+        • Judges decision will be final</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+ 		Bhuvanesh Kumar D : 8056687071<br>
+        Sreejha Suhumar  : 9940884439<br>
+		Alagumeena Muthukumar : 9965432826</p>
+		
+		<script type="text/javascript">
+        function bw() { 
+		var javascriptVariable = "brand";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+		
+		<button type="button" onclick="bw()" class="btn btn-default btn-block">Register</button>
+	     
+		</div>    
+    </div>
+  </div>
+</div>
+
+<div id="mynerve" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Fight the Nerve</h4>
+      </div>
+      <div class="modal-body">
+		<p>Hi! Cool ones! It’s the right time to show how cool you are! Get ready to “FIGHT THE NERVE”<br>
+		Here's the right platform to show your talent. 
+		This event is all about Stress management, but in a different approach.
+		Come let’s manage the stress in a candid way!</p>
+		
+	    <p><b>PRELIMS</b><br>
+		•	A questionnaire round will be conducted with simple set of questions</p>
+		
+		<p><b>INITIAL PUNCH</b><br>
+		•	Contestants who pass through the prelims will take part in this round<br>
+        •	It has two segments<br>
+                        1.  Multi-tasking<br>
+                        2.  Word play</p>
+
+		<p><b>FINAL MOVE</b><br> 
+        • Selected finalists will move on to the finals<br>
+        • It has two rounds<br>
+                        1.  Dub the Clip<br>
+                        2.  Talent Tackle</p>
+						
+		<p><b>RULES</b><br>
+         • Filtration depends on the number of participants<br>
+         • In case of a tie in any round, a tie breaker will be conducted<br>
+         • Rules will be described before the commencement of each round<br>
+         • Judges decision will be final<br>
+		 
+		 <p><b>CONTACT DETAILS</b><br>
+		  Karthik S : 9843906788<br>
+          Anusha Bharathi M : 8870173234</p>
+		  
+		<script type="text/javascript">
+        function ftn() { 
+		var javascriptVariable = "fight";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="ftn()" class="btn btn-default btn-block">Register</button>
+		
+      </div>     
+    </div>
+  </div>
+</div>
+
+
+<div id="myspell" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Spell Kraze</h4>
+      </div>
+      <div class="modal-body">
+		<p>Hi! Orthographists! It’s time to unearth the orthographist in you.Here’s an opportunity to explore your talent in getting the spelling of the most complex words right.<br>
+		 Modelled on the internationally popular Spell Bee, we bring live the best and most challenging event to our college. We extend our heartiest welcome to all the young people out there to participate in this lively and spirited event.
+         We have the following process for Spell KraZe</p>
+
+		<p><b>Round 1</b><br>
+		• A crossword puzzle with a duration of 20 Minutes<br>
+        • In the event of a tie, time and the number of correct answers would be taken into account</p>
+		
+		<p><b>Round 2</b><br>
+		• MCQs - The words will be dictated and participants should choose the right answer<br>    
+        • Participants who score more marks will be eligible for the final round</p>
+
+		<p><b>Round 3</b><br>
+		• Five words will be dictated to every participant<br>
+        • The participants should spell the word correctly within a  given period of time</p>
+		
+		<p><b>RULES</b><br>
+        • Use of mobile phones and other Electronic Gadgets are strictly prohibited<br>
+        • In the event of a tie in  the final round  extra questions may be added<br>
+        • Judges decision is final</p>
+
+        <p><b>CONTACT DETAILS</b><br>
+        Avinash J : 8122485682<br>
+        Adhithya B : 9965521840</p>
+		
+		<script type="text/javascript">
+        function sk() { 
+		var javascriptVariable = "spell";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="sk()" class="btn btn-default btn-block">Register</button>
+
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="myco" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Coadjuvancy</h4>
+      </div>
+      <div class="modal-body">
+		<p>“It takes two flints to make a fire”<br>
+	    Here is a chance to figure out how well you play your role as a team. This event test your team spirit and co-ordination among your team members</p>
+		
+		<p><b>Round 1</b><br>
+		• This round tests how you share the work among your team members and complete the task within the stipulated time<br>
+		• The time duration for this round is 30 minutes</p>
+		
+		<p><b>Round 2</b><br>
+		• The team spirit and ability to co-ordinate between the team members will be assessed in this round<br>
+		• The time duration is 1 hour 30 minutes</p>
+		
+		<p><b>RULES</b><br>
+		• Five participants per team<br>
+        • Only 4 teams will be selected for the round 2<br>
+        • Judges decision will be final</p>
+		
+		<p><b>CONTACT DETAILS</b><br>
+        Prathika M E : 9487849205<br>
+        Arunachalam T R : 8754698236</p>
+		Abinaya: 8012988878</p>
+
+		<script type="text/javascript">
+        function cy() { 
+		var javascriptVariable = "coadjuvancy";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+		<button type="button" onclick="cy()" class="btn btn-default btn-block">Register</button>
+      </div>     
+    </div>
+  </div>
+</div>
+
+
+<div id="myhindi" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Hindi Gyan Kshetra</h4>
+      </div>
+      <div class="modal-body">
+		<p><b>OBJECTIVE</b><br>
+		The main objective of this workshop is to incorporate the importance of our national language (HINDI)
+		Enhance a new way to speak in Hindi in a short span of time</p>
+		
+		<p><b>DESCRIPTION</b><br> 
+        In this workshop we will first teach the participants Hindi through movies in a span of time and will have an small event at the end of this workshop</p>
+
+		<p><b>RULES</b><br>
+        • Participants should be on time to the workshop<br>
+        • Participants must possess their college Identity card</p>
+
+		<p><b>CONTACT DETAILS</b><br>
+         Avinash J :  8122485682<br>
+         Shivanginadia S : 9629584612</p>
+		 
+		<script type="text/javascript">
+        function hgk() { 
+		var javascriptVariable = "hindi";
+		window.location= "eventr.php?name=" + javascriptVariable; 
+		}
+		</script>
+
+         <button type="button" onclick="hgk()" class="btn btn-default btn-block">Register</button>
+      </div>     
+    </div>
+  </div>
+</div>
+
+
+<!--THIS-->
+<!--Modal ends-->
+
+
+<!-- jquery -->
+<script src="assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="assets/mobile/touchSwipe.min.js"></script>
+<script src="assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- custom script -->
+<script src="assets/script.js"></script>
+<script src='loader/preloader.js'></script>
+<script src='loader/jquery.min.js'></script>
+<script src="loader/js/index.js"></script>
+
+</body>
+
+<div id="register" class="modal fade" role="dialog">
+  <div class="modal-dialog" style="width:520px; max-height:100%; max-width:100%;">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+     <div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" style="font-size:100%">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab" style="font-size:100%">Sign Up</label>
+		<div class="login-form">
+		
+			<div class="sign-in-htm">
+			<form class="group" action="login.php" method="post">
+				<div class="group">
+					<label for="user" class="label">EMAIL ADDRESS</label>
+					<input id="email" name="email" required="required" type="text" class="input" placeholder="Enter your Email-id">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">PASSWORD</label>
+					<input id="password" name="password" required="required"   type="password" class="input" data-type="password" placeholder="Enter your password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" name="login" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				
+			</div>
+			</form>
+			<form class="sign-up-htm" action="register.php" autocomplete="on" method="post" enctype="multipart/form-data">
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">NAME</label>
+					<input id="username" name="username" required="required" type="text" class="input" placeholder="Enter your name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">EMAIL ADDRESS</label>
+					<input id="email" name="email" required="required"  class="input" data-type="password" placeholder="Enter your Email-id">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">PASSWORD</label>
+					<input id="password" name="password" required="required"  type="password" class="input" data-type="password" placeholder="Enter your password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">COLLEGE</label>
+					<style>
+						#college option{
+								background-color: black;
+								color: white;
+						}
+					</style>
+					
+					<select class="input" data-live-search="true" id="college" name="college" required>
+					
+<option value="" selected="selected">select your college</option>
+<option value="4">Aalim Muhammed Salegh College Of Engineering</option>
+<option value="5">Aarupadai Veedu Institute of Technology, Vinayaka Mission University</option>
+<option value="6">ABES Engineering College , Ghaziabad</option>
+<option value="7">ABV-IIITM, Gwalior</option>
+<option value="8">ACCET Karaikudi</option>
+<option value="2">A.C. College of Engineering and Technology</option>
+<option value="9">Acharaya Nagarjuna University</option>
+<option value="10">Achariya Bala Siksha Mandir</option>
+<option value="11">Achariya College of Engineering and Technology</option>
+<option value="12">Acropolois Technical Campus</option>
+<option value="13">ACT Anna University</option>
+<option value="14">Adhiyamaan College of Engineering, Hosur</option>
+<option value="15">Adithya Institute of Technology</option>
+<option value="16">Agni College Of Technology</option>
+<option value="17">Alagappa Chettiar College of Engineering and Technology, Karaikudi</option>
+<option value="18">Al-Ameen Engineering College</option>
+<option value="19">Al-Ameer College of Engineering and IT</option>
+<option value="20">Alpha College of Engineering</option>
+<option value="21">Alpha College of Engineering and Technology</option>
+<option value="22">Amara Institute of Engineering and Technology</option>
+<option value="23">American College</option>
+<option value="24">AMET University</option>
+<option value="25">Amity Institute of Space Science and Technology</option>
+<option value="26">Amrita Vishwa Vidyapeetham, Amritapuri</option>
+<option value="27">Amrita Vishwa Vidyapeetham, Bengaluru</option>
+<option value="28">Amrita Vishwa Vidyapeetham, Coimbatore</option>
+<option value="29">Amrita Vishwa Vidyapeetham, Kochi</option>
+<option value="30">Amrita Vishwa Vidyapeetham, Mysore</option>
+<option value="3">A.M.S College of Engineering</option>
+<option value="31">AMS College of Engineering</option>
+<option value="32">Anand Institute of Higher Technology</option>
+<option value="33">Andhra University</option>
+<option value="34">Angel College of Engineering and Technology</option>
+<option value="35">Anil Neerukonda Institute Of Technology and Science</option>
+<option value="36">Anjalai Ammal Mahalingam Engineering College</option>
+<option value="39">Annamacharya Institute of Technology and Sciences, Tirupati</option>
+<option value="40">Annamalai university</option>
+<option value="37">Anna University - BIT Campus Tiruchirappalli</option>
+<option value="38">Anna University School of Architecture and Planning</option>
+<option value="41">Anuradha Engineering College Chikhali</option>
+<option value="42">Apollo Priyadarshanam Institute of Technology</option>
+<option value="43">Army Institute of Management and Technology</option>
+<option value="44">Arunai Engineering College</option>
+<option value="45">Audisankara College of Engineering and Technology(ASCET)</option>
+<option value="46">Aurora&#39;s Scientific and Technological Institute</option>
+<option value="47">AVN Institute of Engineering and Technology</option>
+<option value="49">Babasaheb Bhimrao Ambedkar University</option>
+<option value="50">Badruka College of Commerce and Arts</option>
+<option value="51">Banasthali University</option>
+<option value="52">Bandung Institute of Technology</option>
+<option value="53">Bangalore Institute of Management Studies</option>
+<option value="54">Bangalore Institute of Technology</option>
+<option value="55">Bangladesh University of Engineering and Technology</option>
+<option value="56">Bannari Amman Institute of Technology</option>
+<option value="57">Bapatla Engineering College</option>
+<option value="58">Bapatla Women&#39;s Engineering College</option>
+<option value="59">Barathiyar University</option>
+<option value="60">Bengal Engineering and Science University, Shibpur</option>
+<option value="64">Bharathidasan Institute of Management</option>
+<option value="65">Bharathidasan University</option>
+<option value="66">Bharathiyar College of Engineering and Technology</option>
+<option value="62">Bharath Niketan Engineering College</option>
+<option value="63">Bharath University</option>
+<option value="61">Bharat Institute of Engineering and Technology</option>
+<option value="67">Bhoj Reddy Engineering College for Women</option>
+<option value="68">Bhopal School of Social Sciences</option>
+<option value="69">Birla Institute of Technology, Mesra</option>
+<option value="70">Bishop Heber College</option>
+<option value="71">BITS Pilani Hyderabad Campus</option>
+<option value="72">BITS Pilani K.K. Birla Goa Campus</option>
+<option value="73">BMS Engineering College</option>
+<option value="74">BMS Institute of Technology</option>
+<option value="75">Brindavan Institute of Technology and Science</option>
+<option value="48">B.S.Abdur Rahman University</option>
+<option value="76">BSA Crescent Engineering College</option>
+<option value="77">C. Abdul Hakeem College of Engineering and Technology</option>
+<option value="78">Canara Engineering College</option>
+<option value="79">CARE School of Engineering</option>
+<option value="80">Carnegie Mellon University</option>
+<option value="81">CBM Arts and Science College</option>
+<option value="82">Central Electro Chemical Research Institute</option>
+<option value="83">Central University of Las Villas</option>
+<option value="84">Chaitanya Engineering College</option>
+<option value="85">Chaithanya Bharathi Institute of Technology(CBIT)</option>
+<option value="86">Chalapathi Institute of Engineering and Technology</option>
+<option value="87">Chandubhai S Patel Institute of Technology(CSPIT)</option>
+<option value="88">Channabasaveshwara Institute of Technology</option>
+<option value="89">Chendhuran College of Engineering and Technology</option>
+<option value="90">Chennai Film School</option>
+<option value="91">Chennai institute of technology</option>
+<option value="92">Chennai Mathematical Institute</option>
+<option value="93">Chettinad College of Engineering and Technology</option>
+<option value="94">Christ the King Engineering College</option>
+<option value="96">Christu Jyoti Institute of Technology  Science(CJITS)</option>
+<option value="95">Christ University</option>
+<option value="97">CMR Engineering College</option>
+<option value="98">CMR Institute of Technology</option>
+<option value="99">CMR Technical Campus</option>
+<option value="100">Cochin University of Science and Technology</option>
+<option value="101">Coimbatore Institute of Engineering and Technology (CIET)</option>
+<option value="102">Coimbatore Institute of Technology</option>
+<option value="103">College of Applied Science, Vadakkencherry</option>
+<option value="104">College of Engineering and Management Punnapra, Alappuzh</option>
+<option value="105">College of Engineering and Technology, Bhubaneswar</option>
+<option value="106">College of Engineering Chengannur</option>
+<option value="109">College of Engineering, Guindy</option>
+<option value="107">College of Engineering Thalassery</option>
+<option value="108">College of Engineering Trivandrum, Kerala</option>
+<option value="110">College of Technology, Pantnagar</option>
+<option value="111">Comenius University in Bratislava</option>
+<option value="112">CSI College of Engineering</option>
+<option value="113">CVR College of Engineering</option>
+<option value="116">Delhi College Of Engineering</option>
+<option value="117">Delhi University</option>
+<option value="114">D.G Vaishnav college</option>
+<option value="118">Dhanalakshmi College of Engineering</option>
+<option value="119">Dhanalakshmi Srinivasan College of Engineering and Technology</option>
+<option value="120">Dhirajlal Gandhi College Of Technology</option>
+<option value="121">DKTE Society&#39;s Textile and Engineering Institute, Ichalkaranji</option>
+<option value="122">DMI college of engineering</option>
+<option value="123">DMS Pondicherry University</option>
+<option value="591">Dr G R Damodaran Institute of Management</option>
+<option value="115">D.R.K. College of Engineering and Technology</option>
+<option value="124">Dr. Mahalingam College of Engineering and Technology</option>
+<option value="126">Dr. Nallini Institution of Engineering and Technology</option>
+<option value="125">Dr. N.G.P. Institute of Technology</option>
+<option value="130">Dronacharya College of Engineering</option>
+<option value="127">Dr. RMLS College, Muzaffarpur</option>
+<option value="129">Dr.RR  SR Technical University</option>
+<option value="128">Dr. S.J.S Paul Memorial College of Engineering and Technology</option>
+<option value="131">DVR  DHS MIC College of Technology</option>
+<option value="132">Easwari Engineering College</option>
+<option value="133">EGS Pillay Engineering College</option>
+<option value="134">Einstein College of Engineering</option>
+<option value="135">ER  DCI Institute of Technology</option>
+<option value="137">Erode Builder Educational Trust&#39;s Group of Institutions</option>
+<option value="136">Er.Perumal Manimekalai College of Engineering</option>
+<option value="138">Ethiraj college for Women</option>
+<option value="594">Excel group of instution</option>
+<option value="139">FEAT Annamalai University</option>
+<option value="140">Francis Xavier Engineering College</option>
+<option value="146">Gandhigram Rural institute</option>
+<option value="145">Gandhi Institute for Technogical Advancement</option>
+<option value="147">Gayatari Vidya Parishad College Of Engineering</option>
+<option value="148">GITAM Institute of Management</option>
+<option value="149">GITAM Institute of Science</option>
+<option value="150">GITAM Institute of Technology, Hyderabad</option>
+<option value="151">GITAM Institute of Technology, Vizag</option>
+<option value="152">GITAM School of Technology, Bengaluru</option>
+<option value="143">G.K.M College of Engineering and Technology</option>
+<option value="153">GKM College of Engineering and Technology</option>
+<option value="154">Gnanamani College of Engineering</option>
+<option value="142">G. Narayanamma Institute of Technology and Science</option>
+<option value="155">Gokaraju Rangaraju Institute of Engineering and Technology</option>
+<option value="156">Gossener College</option>
+<option value="157">Government College of Engineering, Salem</option>
+<option value="600">Government College of Engineering,srirangam</option>
+<option value="158">Government College of Engineering, Tirunelveli</option>
+<option value="159">Government College of Technology, Coimbatore</option>
+<option value="160">Government Engineering College, Thrissur</option>
+<option value="161">Government Engineering College, Trivandrum</option>
+<option value="162">Government Model Engineering College</option>
+<option value="141">G Pullaiah College of Engineering and Technology</option>
+<option value="144">G.Pulla Reddy Engineering College</option>
+<option value="163">Great Lakes Institute of Management</option>
+<option value="164">GRT Institute of Engineering and Technology</option>
+<option value="165">Gudlavalleru Engineering College</option>
+<option value="166">Gurgaon Institute of Technology</option>
+<option value="167">Guru Ghasidas Vishwavidyalaya</option>
+<option value="168">Guru Nanak College</option>
+<option value="169">Gyan Ganga College of Technology</option>
+<option value="170">Gyan Vihar School of Engineering and Technology Jaipur</option>
+<option value="171">Haldia Institute of Technology</option>
+<option value="172">Hindustan College of Engineering</option>
+<option value="173">IET DAVVINDORE</option>
+<option value="174">Image College of Arts, Animation and Technology</option>
+<option value="175">Imperial College London</option>
+<option value="177">Indian Institute of Information Technology, Allahabad</option>
+<option value="178">Indian Institute of Information Technology, Bhubaneswar</option>
+<option value="176">Indian Institute of Information Technology Design and Manufacture, Kancheepuram</option>
+<option value="179">Indian Institute of Information Technology, Design and Manufacturing (IIITDM)</option>
+<option value="180">Indian Institute of Information Technology, Hyderabad</option>
+<option value="181">Indian Institute of Management Bangalore</option>
+<option value="182">Indian Institute of Management Calcutta</option>
+<option value="183">Indian Institute of Management Trichy</option>
+<option value="184">Indian Institute of Science Bangalore</option>
+<option value="185">Indian Institute of Science Education and Research, Kolkata</option>
+<option value="186">Indian Institute of Science Education and Research, Pune</option>
+<option value="187">Indian Institute of Science Education and Research, Thiruvananthapuram</option>
+<option value="188">Indian Institute of Space Science and Technology</option>
+<option value="189">Indian Institute of Technology Bombay</option>
+<option value="190">Indian Institute of Technology Delhi</option>
+<option value="191">Indian Institute of Technology Guwahati</option>
+<option value="196">Indian Institute of Technology, Jodhpur</option>
+<option value="192">Indian Institute of Technology Kanpur</option>
+<option value="197">Indian Institute of Technology, Kharagpur</option>
+<option value="193">Indian Institute of Technology Madras</option>
+<option value="194">Indian Institute of Technology Roorkee</option>
+<option value="195">Indian Institute of Technology ROPAR</option>
+<option value="198">Indian Railways Institute of Mechanical and Electrical Engineering</option>
+<option value="199">Indian School of Mines, Dhanbad</option>
+<option value="200">Indira Gandhi Institute of Technology</option>
+<option value="201">Indra Ganesan College of Engineering, </option>
+<option value="202">Infant Jesus College of Engineering</option>
+<option value="203">Info Institute of Engineering</option>
+<option value="204">Institute of Chemical Technology</option>
+<option value="205">Institute of Engineering and Management, Kolkata</option>
+<option value="206">Institute of Engineering and Technology</option>
+<option value="207">Institute Of Engineering and TechnologyDAVV</option>
+<option value="208">Institute of Hotel Management Catering Technology and Applied Nutrition, Mumbai</option>
+<option value="209">Institute of Management, Nirma University</option>
+<option value="210">Institute of Road and Transport Technology</option>
+<option value="211">Institute of Science and Technology</option>
+<option value="212">Institute of Technology and Management</option>
+<option value="213">Institute of Technology and Sciences(ITS), Bhiwani</option>
+<option value="214">International Institute for Population Sciences</option>
+<option value="215">International Institute of Information Technology, Bangalore</option>
+<option value="216">International Institute of Information Technology, Hyderabad</option>
+<option value="219">Jadavpur University</option>
+<option value="588">Jansons institute of technology, coimbatore</option>
+<option value="220">Jawahar Engineering College</option>
+<option value="221">Jawaharlal Nehru Technological University</option>
+<option value="223">Jaya Engineering College</option>
+<option value="224">Jayam College of Engineering and Technology</option>
+<option value="225">Jayaram College of Engineering and Technology</option>
+<option value="226">Jaypee Institute of Information Technology</option>
+<option value="222">Jay Shri Ram Group of Institution</option>
+<option value="218">J. B. Institute of Engineering and Technology</option>
+<option value="227">Jeppiaar Engineering College</option>
+<option value="217">J J College of Engineering and Technology</option>
+<option value="228">JNTUA College of Engineering Pulivendula</option>
+<option value="229">Jodhpur Institute of Engineering  Technology</option>
+<option value="230">Johns Hopkins University</option>
+<option value="231">JSS Academy Of Technical Education</option>
+<option value="232">Jyothi Engineering College</option>
+<option value="237">Kakatiya Institute of Technology and Science, Warangal</option>
+<option value="238">Kakatiya University</option>
+<option value="239">Kalaignar Karunanidhi Institute of Technology</option>
+<option value="240">Kalasalingam Institute of Technology</option>
+<option value="241">Kalasalingam University</option>
+<option value="242">Kalinga Institute of Industrial Technology</option>
+<option value="243">Kamaraj College of Engineering and Technology</option>
+<option value="244">Kanchi Pallavan Engineering College</option>
+<option value="246">Karpagam College of Engineering</option>
+<option value="589">Karpagam Institute of Technology, Coimbatore</option>
+<option value="247">Karpagam University</option>
+<option value="245">Karpaga Vinayaga College of Engineering and Technology</option>
+<option value="248">Karunya University</option>
+<option value="249">Kathir College of Engineering</option>
+<option value="250">KCG College of Technology</option>
+<option value="251">KGISL Institute Of Technology</option>
+<option value="252">Kings College of Engineering</option>
+<option value="253">KIT&#39;S College of Engineering , Kolhapur</option>
+<option value="254">KKR  KSR Institute of Technology and Sciences</option>
+<option value="235">K.L.N College Of Engineering</option>
+<option value="236">K.L.N College of Information Technology</option>
+<option value="255">Knowledge Institute of Technology(KIOT)</option>
+<option value="256">Kolkata Institute of Technology</option>
+<option value="257">Koneru Lakshmaiah College of Engineering</option>
+<option value="258">Kongu Engineering College</option>
+<option value="259">Kongunadu College of Engineering and Technology</option>
+<option value="260">KPR Institute of Engineering and Technology</option>
+<option value="595">K.Ramakrishnan college of engineering</option>
+<option value="233">K Ramakrishnan College of Technology</option>
+<option value="234">K S Rangasamy College of Technology</option>
+<option value="582">K.S.Rangasamy College of Technology ( KSR)</option>
+<option value="602">KSR Institute For Engineering And Technology</option>
+<option value="261">KS School of Engineering and Management</option>
+<option value="576">Kumaraguru college of Technology(KCT), Coimbatore</option>
+<option value="262">Kuppam engineering college</option>
+<option value="264">Laki Reddy Bali Reddy College of Engineering</option>
+<option value="265">Lakshmi Narain College of Technology</option>
+<option value="266">Latha Mathavan Engineering College</option>
+<option value="263">L. J. Institute of Engineering and Technology</option>
+<option value="267">Lovely Professional University</option>
+<option value="269">Loyola-ICAM College of Engineering and Technology</option>
+<option value="268">Loyola Institute of Business Administration</option>
+<option value="279">Maamallan Institute of Technology</option>
+<option value="280">Madha Institute of Engineering and Technology</option>
+<option value="281">Madras Christian College</option>
+<option value="282">Madras Institute of Technology</option>
+<option value="283">Madras University</option>
+<option value="284">Madurai Institute Of Engineering and Technology</option>
+<option value="285">Magna College of Engineering</option>
+<option value="286">Maharaja Agrasen Institute of Technology</option>
+<option value="583">Maharaja institute of technology, coimbatore</option>
+<option value="287">Maharaja Prithvi Engineering College</option>
+<option value="288">Maharaja Sayajirao University of Baroda</option>
+<option value="289">Maharshi Arvind Institute of Science and Management</option>
+<option value="290">Mahatma Gandhi Institute of Technology</option>
+<option value="291">Mahendra Engineering College</option>
+<option value="292">Mahendra Institute of Technology</option>
+<option value="293">Mailam Engineering College</option>
+<option value="294">Malaviya National Institute of Technology, Jaipur</option>
+<option value="295">Malla Reddy Engineering College</option>
+<option value="598">MAM College of Engineering</option>
+<option value="271">M.A.M College of Engineering and Technology</option>
+<option value="273">M.A.M. School of Architecture</option>
+<option value="272">M.A.M School of Engineering</option>
+<option value="296">Management Development Institute</option>
+<option value="297">Manakula Vinayagar Institute of Technology</option>
+<option value="298">Manav Rachna International University</option>
+<option value="299">Mangalam College of Engineering</option>
+<option value="300">Manipal Institute of Technology</option>
+<option value="301">Mannar Thirumalai Naicker College</option>
+<option value="302">Mar Athanasius College of Engineering</option>
+<option value="303">Mar Baselios College of Engineering and Technology</option>
+<option value="274">M.A.R College of Engineering and Technology</option>
+<option value="304">Maturi Venkata Subba Rao Engineering College</option>
+<option value="305">Maulana Azad National Institute of Technology, Bhopal</option>
+<option value="306">Medi-Caps Institute of Technology and Management</option>
+<option value="307">Meenakshi College Of Engineering</option>
+<option value="308">Meenakshi Sundararajan Engineering College</option>
+<option value="309">Mepco Schlenk Engineering College</option>
+<option value="310">MES College of Engineering</option>
+<option value="275">M.I.E.T  ENGINEERING COLLEGE</option>
+<option value="311">MIT Campus, Anna University</option>
+<option value="270">M. Kumarasamy College of Engineering</option>
+<option value="312">MNIT Jaipur</option>
+<option value="313">MNM Jain Engineering College</option>
+<option value="314">Model Engineering College</option>
+<option value="315">Modern Education Society&#39;s College of Engineering</option>
+<option value="316">Mohamed Sathak Engineering College</option>
+<option value="317">Mohandas College of Engineering and Technology</option>
+<option value="318">Moogambigai College of Engineering</option>
+<option value="276">M.O.P. Vaishnav College for Women</option>
+<option value="319">Motilal Nehru National Institute of Technology, Allahabad</option>
+<option value="277">M.S. Ramaiah Institute of Technology</option>
+<option value="320">Muffakham Jah College of Engineering and Technology</option>
+<option value="321">Mumbai University</option>
+<option value="322">Muzaffarpur Institute of Technology</option>
+<option value="323">MVGR College of Engineering</option>
+<option value="324">MVJ College of Engineering</option>
+<option value="278">M.V.S.R Engineering College</option>
+<option value="325">Nalanda Degree College</option>
+<option value="326">Nandha Engineering College</option>
+<option value="327">Narasu&#39;s Sarathy Institute of Technology</option>
+<option value="328">National Engineering college</option>
+<option value="329">National Institute of Engineering</option>
+<option value="330">National Institute Of Science And Technology</option>
+<option value="331">National Institute of Technology, Agartala</option>
+<option value="332">National Institute of Technology, Arunachal Pradesh</option>
+<option value="333">National Institute of Technology, Calicut</option>
+<option value="334">National Institute of Technology, Delhi</option>
+<option value="335">National Institute of Technology, Durgapur</option>
+<option value="336">National Institute of Technology, Goa</option>
+<option value="337">National Institute of Technology, Hamirpur</option>
+<option value="338">National Institute of Technology, Jalandhar</option>
+<option value="339">National Institute of Technology, Jamshedpur</option>
+<option value="340">National Institute of Technology, Karnataka, Surathkal</option>
+<option value="342">National Institute of Technology, Kurukshetra</option>
+<option value="343">National Institute of Technology, Manipur</option>
+<option value="355">National Institute of TechnologyMeghalaya</option>
+<option value="344">National Institute of Technology, Mizoram</option>
+<option value="345">National Institute of Technology, Nagaland</option>
+<option value="346">National Institute of Technology, Patna</option>
+<option value="347">National Institute of Technology, Puducherry</option>
+<option value="348">National Institute of Technology, Raipur</option>
+<option value="349">National Institute of Technology, Rourkela</option>
+<option value="350">National Institute of Technology, Sikkim</option>
+<option value="351">National Institute of Technology, Silchar</option>
+<option value="352">National Institute of Technology, Srinagar</option>
+<option value="341">National Institute of Technology, Tiruchirapalli</option>
+<option value="353">National Institute of Technology, Uttarakhand</option>
+<option value="354">National Institute of Technology, Warangal</option>
+<option value="356">National Research University of Information TechnologiesMechanics and Optics (NRU ITMO)</option>
+<option value="357">National University of Singapore (NUS)</option>
+<option value="358">Nehru Institute of Engineering and Technology</option>
+<option value="359">Netaji Subhas Institute of Technology (NSIT)</option>
+<option value="360">Nirma University of Science  Technology</option>
+<option value="361">Nitte Mahalinga Adyanthaya Memorial Institute of Technology (NMAMIT)</option>
+<option value="362">Northern India Engineering College</option>
+<option value="363">NPR College of Engineering  Technology (NPRCET)</option>
+<option value="364">NRI INSTITUE OF TECHNOLOGY (NRIIT)</option>
+<option value="365">Odaiyappa College of Engineering and Technology (OCET)</option>
+<option value="366">Oriental Institute of Science and Technology (OIST)</option>
+<option value="1">Others</option>
+<option value="367">Oxford College of Engineering and Technology</option>
+<option value="374">Paavai College of Engineering</option>
+<option value="373">PA College of Engineering and Technology</option>
+<option value="375">Padmasri Dr. B.V Raju Institute of Technology (BVRIT)</option>
+<option value="376">Panimalar Engineering College</option>
+<option value="377">Pannaikadu Veerammal Paramasivam College of Engineering and Technology </option>
+<option value="378">Parisutham Institute of Technology and Science(PITS)</option>
+<option value="379">Park College of Engineering and Technology (PCET)</option>
+<option value="380">Pathfinder Engineering College</option>
+<option value="369">P.B. College Of Engineering (PBCE)</option>
+<option value="381">PBR Visvodaya Institute of Technology and Science (PBR VITS)</option>
+<option value="382">People&#39;s Education Society Institute of TechnologySouth Campus (PESIT)</option>
+<option value="383">periyar maniammai university (PMU)</option>
+<option value="384">PERUNTHALAIVAR KAMARAJAR INSTITUTE OF ENGINEERING AND TECHNOLOGY (PKIET)</option>
+<option value="385">PET Engineering College</option>
+<option value="370">P.M.R Engineering College</option>
+<option value="386">Podhigai College of Engineering  Technology</option>
+<option value="387">Pondicherry University</option>
+<option value="388">Ponnaiyah Ramajayam College of Engineering  Technology (PRCET)</option>
+<option value="389">Prasad v. Potluri Siddhartha Institute of Technology  </option>
+<option value="390">PRATHYUSHA INSTITUTE OF TECHNOLOGY AND MANAGEMENT</option>
+<option value="368">P. R. Engineering College (PREC)</option>
+<option value="391">Prince Shri Venkateshwara Padmavathy Engineering College</option>
+<option value="392">PRIST University</option>
+<option value="393">PSG College of Arts and Science</option>
+<option value="580">PSG College of Technology</option>
+<option value="371">P.S.G COLLEGE OF TECHNOLOGY</option>
+<option value="578">PSG Institute of Technology and Applied research</option>
+<option value="394">PSG POLYTECHNIC COLLEGE</option>
+<option value="584">PSGR Krishnammal College for Women, coimbatore</option>
+<option value="395">PSNA College of Engineering and Technology (PSNA CET)</option>
+<option value="372">P.S.R.ENGINEERING COLLEGE</option>
+<option value="396">Pune Institute of Computer Technology (PICT)</option>
+<option value="397">Pune Vidhyarthi Grihas College of Engineering and Technology (PVGCOET)</option>
+<option value="402">Raja College of Engineering and Technology (RajaCET)</option>
+<option value="403">Rajagiri College Of Social Sciences</option>
+<option value="404">Rajagiri School of Engineering and Technology</option>
+<option value="405">Rajalakshmi Engineering College</option>
+<option value="406">Rajalakshmi Institute of Technology</option>
+<option value="407">Rajiv Gandhi College of Engineering and Technology (RGCET)</option>
+<option value="409">Ramakrishna Mission Vivekananda College</option>
+<option value="408">Rama Nagappa Shetty(RNS) Institute of Technology and Management Studies</option>
+<option value="592">Ramco Institute of Technology</option>
+<option value="410">Ranganathan Engineering College</option>
+<option value="411">Ranipettai Engineering College</option>
+<option value="412">Rashtreeya Vidyalaya College of Engineering (RV College of Engineering)</option>
+<option value="601">Rathinam college of engineering</option>
+<option value="413">RMD Engineering College</option>
+<option value="401">R.M.K. College of Engineering  Technology(RMKCET)</option>
+<option value="400">R.M.K Engineering College</option>
+<option value="399">R. N. Modi Engineering College (RMEC)</option>
+<option value="414">Roever College of Engineering  Technology (Roever Tech)</option>
+<option value="415">Royal College of Engineering  Technology (RCET)</option>
+<option value="416">RRASE COLLEGE OF ENGINEERING</option>
+<option value="417">RSR Engineering College</option>
+<option value="418">Rungta College of Engineering  Technology (RCET)</option>
+<option value="398">R V R  J C College of Engineering (Rayapati Venkata Rangarao  Jagarlamudi Chandramouli)</option>
+<option value="419">RVS College of Engineering and Technology</option>
+<option value="599">RVS school of architecture</option>
+<option value="421">Saarland University</option>
+<option value="422">SACS MAVMM Engineering College</option>
+<option value="420">S.A. Engineering College</option>
+<option value="423">Sanjay Ghodawat Group of Institute</option>
+<option value="424">Sant Longowal Institute of Engineering and Technology (SLIET)</option>
+<option value="425">Saranathan College of Engineering</option>
+<option value="426">Sardar Raja College of Engineering (SRCE)</option>
+<option value="427">Sardar Vallabhbhai National Institute of Technology (SVNIT)</option>
+<option value="428">Sasi Institute of Technology  Engineering</option>
+<option value="429">SASTRA University(Shanmugha Arts, Science, Technology  Research Academy)</option>
+<option value="430">Sasurie College of Engineering</option>
+<option value="431">Sathyabama University/Sathyabama Institute of Science and Technology</option>
+<option value="432">Saveetha Engineering College</option>
+<option value="433">Saveetha University</option>
+<option value="434">SBM College of Engineering and Technology (SBMCET)</option>
+<option value="435">School of Computer Science  Information Technology. Devi Ahilya Vishwavidyalaya</option>
+<option value="436">School of EngineeringCochin University of Science and Technology (CUSAT)</option>
+<option value="437">Seethalakshmi Ramaswami college</option>
+<option value="438">Selvam College of Technology</option>
+<option value="440">Sengunthar Engineering College, Erode</option>
+<option value="439">Sengunthar Engineering College, Tiruchengode, Namakkal</option>
+<option value="441">Seth Jai Parkash Mukand Lal Institute of Engineering and Technology</option>
+<option value="442">Sethu Institute Of Technology</option>
+<option value="443">shanmuganathan engineering college</option>
+<option value="444">Shivani College of Engineering  Technology (SCET)</option>
+<option value="445">Shree Motilal Kanhaiyalal Fomra Institute of Technology</option>
+<option value="446">Shreenivasa Engineering College (SEC)</option>
+<option value="596">Shree Venkateshwara Hi-Tech Engineering College</option>
+<option value="447">Shri Angalamman College of Engineering and Technology (SACET)</option>
+<option value="448">Shri Ramswaroop Memorial College of Engineering and Management (SRMCEM)</option>
+<option value="449">SHRI SAPTHAGIRI INSTITUTE OF TECHNOLOGY (SSIT)</option>
+<option value="450">Sikkim Manipal University SMU</option>
+<option value="451">SKP Engineering College (SKPEC)</option>
+<option value="452">SKP Institute of Technology SKPIT</option>
+<option value="453">SKR Engineering College SKREC</option>
+<option value="454">SMK Fomra Institute of Technology</option>
+<option value="586">SNS college of Engineering, coimbatore</option>
+<option value="455">SNS COLLEGE OF TECHNOLOGY</option>
+<option value="456">SONA COLLEGE OF TECHNOLOGY.</option>
+<option value="457">SREE BUDDHA COLLEGE OF ENGINEERING</option>
+<option value="458">Sree Chitra Thirunal College of Engineering SCTCE</option>
+<option value="463">Sreenidhi Institute of Science and Technology</option>
+<option value="459">SREE SAKTHI ENGINEERING COLLEGE</option>
+<option value="460">Sree Sastha Institute of Engineering and Technology (SSIET)</option>
+<option value="461">Sree sowdambika college of engineering</option>
+<option value="462">Sree Vidyanikethan Engineering College</option>
+<option value="464">Sreyas Institute of Engineering  Technology</option>
+<option value="465">Sri Bhagawan Mahaveer Jain College</option>
+<option value="466">Sri Chaitanya Degree College</option>
+<option value="467">Sri Chandrasekarendra Saraswathi Viswa Maha Vidyalaya (SCSVMV)</option>
+<option value="483">Sridevi Womens Engineering College</option>
+<option value="468">Sri Eshwar College of Engineering</option>
+<option value="469">Sri Ganesh College Of Engineering and Technology ( SGCET )</option>
+<option value="585">Sri Guru Institute of Technology, coimbatore</option>
+<option value="470">SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING (SJCE)</option>
+<option value="593">sri krishna arts and science college</option>
+<option value="471">Sri Krishna College of Engineering  Technology (SKCET)</option>
+<option value="579">Sri Krishna college of technology</option>
+<option value="472">Sri Manakula Vinayagar Engineering College</option>
+<option value="473">Sri Muthukumaran Institute Of Technology SMIT</option>
+<option value="474">Sri Nandhanam College of Engineering Technology</option>
+<option value="484">Srinivasa Institute of Engineering and Technology</option>
+<option value="485">Srinivasan Engineering College</option>
+<option value="475">Sri Padmavati Mahila Visvavidyalayam (SPMVV)</option>
+<option value="590">Sri ramakrishna college of arts and science for women</option>
+<option value="477">Sri Ramakrishna Engineering College</option>
+<option value="577">Sri Ramakrishna Institute of Technology</option>
+<option value="486">Sriram Engineering College</option>
+<option value="476">Sri Ram Engineering College</option>
+<option value="478">Sri Sai Ram Engineering college</option>
+<option value="479">Sri Shakthi Institute of Engineering and Technology</option>
+<option value="480">Sri Sivasubramaniya Nadar College (SSN) of Engineering</option>
+<option value="481">Sri Venkateswara College of Engineering (SVCE)</option>
+<option value="482">Sri Venkateswara University</option>
+<option value="487">SRM University</option>
+<option value="597">SSM Institute of Engineering and Technology</option>
+<option value="488">SSR Engineering College</option>
+<option value="495">Stanford University</option>
+<option value="496">Star Lion College of Engineering and Technology</option>
+<option value="489">St. Berchmans(SB) College</option>
+<option value="490">St. Joseph&#39;s College of Engineering and Technology</option>
+<option value="491">St. Joseph&#39;s Institute of Technology</option>
+<option value="492">St. Mary&#39;s Engineering College</option>
+<option value="493">St. Peter&#39;s College of Engineering and Technology</option>
+<option value="494">St. Xavier&#39;s College</option>
+<option value="497">Sudharsan Engineering College</option>
+<option value="498">Supreme Knowledge Foundation Group of Institution</option>
+<option value="499">SV National Institute of Technology, Surat</option>
+<option value="587">SVS College of Engineering, coimbatore</option>
+<option value="500">SVU College of Engineering, Sri Venkateswara University</option>
+<option value="501">Swarnandhra College of Engineering and Technology</option>
+<option value="502">Symbiosis Institute of International Business</option>
+<option value="505">Tagore Engineering College</option>
+<option value="506">Tamilnadu Engineering College</option>
+<option value="507">Tbilisi State University</option>
+<option value="508">Techno India College of Technology</option>
+<option value="509">Tejaa Shakthi Institute of Technology for Women</option>
+<option value="510">Texas AM University, Qatar</option>
+<option value="511">Thadomal Shahani Engineering College</option>
+<option value="512">Thangal Kunju Musaliar College of Engineering, Kollam</option>
+<option value="513">Thanthai Periyar Government College Of Technology</option>
+<option value="514">Thapar University</option>
+<option value="515">The University of Chicago</option>
+<option value="516">The University of Texas at Dallas</option>
+<option value="517">Thiyagarajar College of Engineering</option>
+<option value="518">Thiyagarajar School of Management</option>
+<option value="503">T J Institute of Technology</option>
+<option value="504">T.K.M College of Engineering</option>
+<option value="519">Toc H Institute of Science And Technology</option>
+<option value="520">Trichy Engineering College</option>
+<option value="521">Triumphant Institute of Management Education</option>
+<option value="522">TRP Engineering College</option>
+<option value="523">Ultra College of Engineering and Technology for Women</option>
+<option value="524">United Institute of Technology</option>
+<option value="525">University at Buffalo</option>
+<option value="526">University College of Engineering Panruti</option>
+<option value="529">University College of Engineering, Pattukkottai</option>
+<option value="527">University College of Engineering Tindivanam</option>
+<option value="528">University College of Engineering Villupuram</option>
+<option value="530">University Institute of Engineering and Technology, Panjab University</option>
+<option value="531">University of California, Santa Barbara</option>
+<option value="532">University of Cape Town</option>
+<option value="533">University of Chicago</option>
+<option value="534">University of Houston</option>
+<option value="535">University of Kalyani</option>
+<option value="536">University of Pittsburgh</option>
+<option value="537">University of Pune</option>
+<option value="538">University of Rajasthan</option>
+<option value="539">Unnamalai Institute of Technology</option>
+<option value="540">Urumu Dhanalakshmi College</option>
+<option value="541">Usha Rama College of Engineering and Technology</option>
+<option value="544">Valliammai Engineering College</option>
+<option value="545">Vandayar Engineering College</option>
+<option value="546">Vardhaman College of Engineering</option>
+<option value="547">Varuvan Vadivelan Institute of Technology</option>
+<option value="548">Vasireddy Venktadri Institute of Technology</option>
+<option value="549">Veerammal Engineering College</option>
+<option value="550">Veermata Jijabai Technological Institute</option>
+<option value="552">Velagapudi Ramakrishna Siddhartha Engineering College</option>
+<option value="553">Velalar College of Engineering and Technology</option>
+<option value="554">Vellamal College of Engineering and Technology</option>
+<option value="555">Vellamal Engineering College</option>
+<option value="556">Vellamal Institute of Technology</option>
+<option value="557">Vels University</option>
+<option value="551">Vel Tech High Tech, Dr.Rangarajan Dr.Sakunthala Engineering College</option>
+<option value="558">Veltech University</option>
+<option value="559">Vidhya Jyothi Institute of Technology</option>
+<option value="560">Vidyaa Vikas College of Engineering and Technology</option>
+<option value="561">Vignan&#39;s Lara Institute of Technology and Sciences</option>
+<option value="562">Vinayaka Mission&#39;s Kirupananda Variyar Engineering College</option>
+<option value="563">Visvesvarya National Institute of Technology, Nagpur</option>
+<option value="566">VITS College of Engineering</option>
+<option value="564">VIT University, Chennai</option>
+<option value="565">VIT University, Vellore</option>
+<option value="567">Vivekananda Institute of Technology</option>
+<option value="568">Vivekanandha College of Engineering for Women</option>
+<option value="569">VKS College of Engineering and Technology</option>
+<option value="570">VRS college of Engineering and Technology</option>
+<option value="542">V.R. Siddhartha Engineering College</option>
+<option value="543">V.S.B Engineering college, Karur</option>
+<option value="571">VSB Enginnering College</option>
+<option value="572">Vyas Institutes of Higher Education, Jodhpur</option>
+<option value="573">Xavier Labour Relations Institute</option>
+<option value="574">Zagreb Faculty of Electrical Engineering and Computing</option>
+<option value="575">Zhejiang University</option>
+</select>
+
+				</div>
+				<div class="group">
+					<label for="pass" class="label">DEPARTMENT</label>
+					<style>
+						#department option{
+								background-color: black;
+								color: white;
+						}
+					</style>
+					<select class="input" id="department" name="department" required>
+					<option value="" selected="selected">select your Department</option>
+<option value="1">Aero</option>
+<option value="2">Arch</option>
+<option value="3">Arts</option>
+<option value="4">Auto</option>
+<option value="5">Bio</option>
+<option value="6">CHEM</option>
+<option value="7">CSE</option>
+<option value="8">Civil</option>
+<option value="9">ECE</option>
+<option value="10">EEE</option>
+<option value="11">EIE</option>
+<option value="12">FT</option>
+<option value="13">ICE</option>
+<option value="14">IT</option>
+<option value="15">MBA</option>
+<option value="16">MCA</option>
+<option value="17">MCE</option>
+<option value="18">Mech</option>
+<option value="19">Meta</option>
+<option value="20">Prod</option>
+<option value="21">Science</option>
+<option value="22">Txt</option>
+<option value="23">Other</option>
+</select>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">YEAR</label>
+					<style>
+						#year option{
+								background-color: black;
+								color: white;
+						}
+					</style>
+					<select id="year" required="required" class="input" placeholder="Select your year" name="year">
+					<option value="" selected="selected">select your year</option>
+					<option value="first">1st Year</option>
+					<option value="second">2nd Year</option>
+					<option value="third">3rd Year</option>
+					<option value="fourth">4th Year</option>
+					<option value="fifth">5th Year</option>
+					<option value="other">Other</option>
+					</select>
+					
+				</div>
+				
+				<div class="group">
+					<label for="pass" class="label">MOBILE</label>
+					<input id="mobile" name="mobile" required="required" type="text" class="input" placeholder="Enter your 10-digit number">
+				
+				</div>
+				
+				<div class="group">
+					<input type="submit" name="signup" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+						</div>
+						</form>
+		</div>
+	</div>
+</div>
+     
+    </div>
+
+  </div>
+</div>
+</html>

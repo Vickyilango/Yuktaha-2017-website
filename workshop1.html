@@ -1,0 +1,803 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>YUKTAHA 2K17</title>
+
+<!-- Google fonts -->
+<link href='assets/1.css' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="boot.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="assets/animate/set.css" />
+  <link rel="stylesheet" href="loader/normalize.min.css">
+  <link rel="stylesheet" href="loader/css/style.css">
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+
+<link rel="stylesheet" href="assets/style.css">
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+	
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+	}
+</script>
+
+<link rel="stylesheet" href="assets/style.css">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<link rel='stylesheet prefetch' href='assets/2.css'>
+
+      <link rel="stylesheet" href="login/style.css">
+</head>
+
+<body>
+  <div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+<div class="topbar animated fadeInLeftBig"></div>
+<div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="top-nav">
+          <div class="container">
+            <div class="navbar-header">
+             
+
+      <button type="button" class="navbar-toggle collapsed"  onclick="location.href='logout.php';" style="color:white">
+            LOGOUT
+              </button>
+
+
+              
+			  <br><br>
+<span style="font-size:30px;cursor:pointer;color:white;padding-left:10%" onclick="openNav()">&#9776;</span>
+	
+            </div>
+
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right scroll">
+               
+                  <li class="active"><a href="#" style="color:#ff9999">WORKSHOP</a></li>
+				  <li ><button type="button"  onclick="location.href='logout.php';" style="color:#ff9999;margin-top:2.28em;background :none;border : none; padding-left: 1em; "  aria-pressed="false" autocomplete="off">LOGOUT</button></li>
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+<!-- #Header Starts -->
+
+<div id="mySidenav" class="sidenav" >
+	<br><br><br>
+   <b style="padding-left:25%;font-size:170%;color:white;">YUKTA:'17</b> 
+   <br><br><br>
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="padding-left:70%">&times;</a>
+  <h4 style="font:Calibri"><a href="index.html">Home</a>
+  <a href="event1.html">Events</a>
+  <a href="workshop1.html">Workshop</a>
+  <a href="paper1.html">Paper presentation</a>
+   </h4>
+</div>
+<h3></h3>
+
+
+<div id="ece"  class=" clearfix grid"> 
+<h3></h3><h3></h3><h3></h3>
+<h2 align=center style="color:#fff0e6">WORKSHOPS</h2>
+  
+ <figure class="effect-oscar  wowload fadeInUp">
+   <img src="images/portfolio/and.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+           <h2>A [7.0]</h2>
+	        <p><br> Time: 9AM-12PM<br>Venue:IOT & MC Lab<br>
+			<u><a data-toggle="modal" data-target="#myModalcse">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	
+	<!--This is done-->
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/ecew.jpg" alt="01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>ARM 7</h2>
+            <p><br>Time:9:30AM-4:00PM<br>Venue:E2-102<br>
+			<u><a data-toggle="modal" data-target="#myModaleece">View more</p>  </a>   </u>                
+		   </figcaption>
+    </figure>
+	
+	
+	<!--This is done-->
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/festo.jpg" alt="img01"/>
+        <figcaption><br><br><br>
+            <h2>Festo Pneumatics</h2>
+            <p><br> Time: 9AM<br>VENUE:Festo Lab(E6 BLOCK)<br>
+			<u><a data-toggle="modal" data-target="#myModalmech">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	
+	<figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/trus.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Truss'ure</h2>
+            <p><br> Time: 9AM-3:30PM<br>Venue:E1-203<br>
+      <u><a data-toggle="modal" data-target="#myModaltrussure">View more</p>  </a>   </u>       
+        </figcaption>
+    </figure>
+	
+	<!--This is done-->
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/eeew.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>e-Explore</h2>
+            <p> Time: 11AM-3PM<br>Venue:E3-104<br>
+			<u><a data-toggle="modal" data-target="#myModaleee">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	
+	 <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/icengine.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Exploring IC engine</h2>
+           <p> Time:<br>Venue:<br>
+		   <u><a data-toggle="modal" data-target="#myic">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	<!--This is Done -->
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/micropile.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Micropiling</h2>
+           <p> Time: 9AM-4PM<br>Venue:E1-202<br>
+		   <u><a data-toggle="modal" data-target="#myModalecivil">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	
+
+	<figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/rob final.jpg" alt="img01"/>
+        <figcaption><br><br><br><br><br><br>
+            <h2>Robotrix</h2>
+            <p><br> Time: 11AM-3PM<br>VENUE:E3-103<br>
+			<u><a data-toggle="modal" data-target="#myrobotrix">View more</p>  </a>   </u>     
+			</figcaption>
+    </figure>
+	
+
+	
+    
+</div>
+
+
+
+
+<div id="myModalcse" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">A [7.0]</h4>
+			</div>
+			<div class="modal-body">
+			<p>Are you crazy to be an android app developer then you are at the right platform. 
+			   This Workshop on Android Development covers the vital concepts of application Development from the scratch .
+			   At the end of the workshop you will have acquired a clear cut idea on Android App Development</p>
+			
+			<p><b><b>TOPICS TO BE COVERED</b></b><br>
+			•  Basics of Android<br>
+            •  Project structure and outline<br>
+            •  Use of Development tools<br>
+            •  Making of complex apps<br>
+            •  Map location<br>
+            •  Developing social messaging apps<br>
+            •  Flexible App Designing<br>
+            •  Programming core features and classes for Java</p>
+			
+			<p><b><b>REQUIREMENTS</b></b><br>
+			• Laptop with android studio<br>
+            • A usb cable<br>
+            • An android mobile</p>
+			
+			<p><b><b>NOTE</b></b><br>
+			• Work manual will be given<br>
+            • Participants are requested to bring their college ID card</p>
+			
+			<script type="text/javascript">
+        function an() { 
+  var javascriptVariable = "android";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+			
+			<p><b>CONTACT DETAILS</b><br>
+			Nikeshh : 9943859153<br>
+			Krishna Prasad : 8608648420</p>
+			
+			<button type="button" class="btn btn-default btn-block" onclick="an()">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="myModaleece" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">EMBEDDED SYSTEM DESIGN USING ARM-7</h4>
+			</div>
+			<div class="modal-body">
+				<P>
+					
+					<br>
+Want to rule the world with ARM processor?
+<br><br>
+			Come learn and innovate in a team of 4.
+				</P>
+				<p>
+					<b><b>
+						DESCRIPTION:
+					</b></b><br>
+					In another 20 years, there are possibilities that the world would be fully programmed by Acron Risc Machine (ARM) processor. Such is its importance in the ever-growing technological world. 
+				</p>
+				<p>
+					This hands-on training gives you an opportunity to know more and innovate with ARM processor and LPC2148 controller.
+				</p>
+				<p>
+					<b><b>
+						RULES<br>
+					</b></b>
+					• Registration for this event can be done for one person per team. All members need not register.<br>
+					• Maximum a team can consist of 4 members<br>
+					• Registration is limited to 10 teams <br>
+					• Registration is based on first come first serve basis<br>
+					• Participants must bring their college ID's<br>
+					• Participants should be present at the venue half an hour prior to the start of the event<br>
+				</p>
+				<p>
+					<b><b>
+						PRE-REQUISITES:
+					</b></b>
+					  Basic knowledge on C Programming  
+				</p>
+				<p><b><b>REGISTRATION FEE :</b>1200/- per team</p></b>
+				<p>
+				
+					<b><b>
+						CONTACT DETAILS:<br>
+					</b></b>
+					SUJANYA S : 9789890803<br>
+					YAZHISAI KUMAR K: 9486302797<br>
+					MONISHA G : 9943851702<br>
+					VISHNU PRIYA R : 8903774184<br>
+				</p>
+				
+				<script type="text/javascript">
+        function esd() { 
+  var javascriptVariable = "arm";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+				
+				   <button type="button" class="btn btn-default btn-block" onclick="esd()">Register</button>
+      
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="myModalmech" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">FESTO pneumatic systems Workshop</h4>
+				
+			</div>
+			<div class="modal-body">
+			
+		 <p><b><b>
+		  Pneumatics makes use of the free-for-all natural resources (air) to do the job with swiftness and precision which are indispensable traits for the next generation industrialist. We provide hands-on training about some simple pneumatic applications which will be a foundation for your future endeavors. The workshop includes a detailed demonstration after which you will be allowed to try your hands on the equipment at the state of art PSGITECH FESTO LAB.
+		</b></p></b>
+			
+				
+<p>
+	<b><b>SESSION 1 (09:00AM – 12:00PM):</b></b>
+	 We go through the detailed explanation of the basis of pneumatic components, to draw circuits, working principles and industrial applications.
+</p>
+<p>
+	<b><b>
+		SESSION 2 (01:00PM – 03:00PM):
+	</b></b>
+	 Hands on training in FESTO DIDACTIC LAB solving many tasks given at that moment.
+</p>
+<p>
+	<b><b>
+		SESSION 3 (03:00PM – 04:00PM):
+	</b></b>
+	A simple industrial problem statement will be provided and you have to solve it. 
+</p>
+<p><b>CASH PRIZES WILL BE AWARDED FOR THE BEST SOLUTIONS.</b></p>
+</p>
+     <p><b><B>NOTES:</B><br></b>
+    • Participants should bring their college ID cards<br>
+    • Three members per team<br>
+    • Registration fee for a team is 1200 INR<br>
+    • Registrations are limited (on first come first served basis)<br>
+<br>
+
+</p>
+<p>
+<B><b>CONTACT DETAILS</B></b>
+<br>
+DHARANIKUMARAN : 7548847465
+<br>
+PRAVEEN         : 9952455086
+<br>
+</p>
+<p>
+<B>VENUE:</B>FESTO LAB - E6 BLOCK <br>
+<b>TIME:</b>9PM
+</p>   
+
+<script type="text/javascript">
+        function fpsw() { 
+  var javascriptVariable = "festo";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+
+<button type="button" class="btn btn-default btn-block" onclick="fpsw()">Register</button>
+      
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="myModaltrussure" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <br><br><h4 class="modal-title">Truss'ure</h4>
+      </div>
+      <div class="modal-body">
+	  
+      <p>Looking out for an opportunity to showcase few fabrication skills? Then here we have something just for you. Truss’ure is a workshop cum event where the participants are explained on how to design a truss in virtual lab software. 
+	     The participants are supposed to fabricate a truss using balsa wood. The designed structure will be tested for stability under loads</p>
+	  
+        <p><b><b>RULES</b><br></b>
+	     • 3 to 4 members per team<br>
+         • Laptop is mandatory<br>
+         • Winners will be decided based on the load bearing capacity of the fabricated truss<br>
+		 • The decision of the jury will be final</p>
+	
+		<p><b><b>REGISTRATION FEES: </b> </b>150/-</p><b>
+	 <p> <b><b>COORDINATORS:</b></b><br>
+	   Sargunam P : 9629685948<br>
+       Monisha K : 7373714252</p>
+	  
+	  <script type="text/javascript">
+        function te() { 
+  var javascriptVariable = "trussure";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+	  
+	  <button type="button" class="btn btn-default btn-block" onclick="te()">Register</button>
+	  
+      </div>     
+    </div>
+  </div>
+</div>
+
+
+<div id="myModaleee" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">E-explore</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					<h3>
+						
+					</h3>
+					Assume that you are alone at home and watching a horror movie at its climax, and <br><br>the power goes off suddenly, as a human you would be terrified. But the professional <br><br>part in you would be awaken and it would tend to move towards your house’s control <br><br>box, and look at their state of the “electrical ghost”,
+				</p>
+				<p>
+					<b>
+						DESCRIPTION
+					</b>
+					<br>
+					 • This workshop mainly aims at providing the basic knowledge of circuits, their functioning and a practical knowledge of how to handle them<br>
+					 • Knowing them would definitely increase the employability skills of the people who are attending this which would build their confidence as engineers, which the most important aspect<br>
+				</p>
+				<br>
+				<p>
+					<b>
+						AFTERMATH
+					</b>
+					<br>An event will also be conducted in this arena to unleash your technical potentials and will be rewarded with certificates and prizes accordingly.
+				</p>
+				<p>
+					<b>
+						NOTE
+					</b>
+					<BR>
+						All the participants would be given participation certificate.
+				</p>
+				<p>
+				<B>
+					DURATIONS
+				</B>
+				3 HOURS
+				</p>
+				<P>
+					<B>
+						VENUE:
+					</B>
+					EEE BUILDING-107
+				</P>
+				<p><b>REGISTRATION FEE :</b>200/-</p>
+				<P>
+					<B>CONTACT DETAILS</B><br>
+						Surendar R : 9940988460<BR>
+						Dhanya K : 9486693627
+					
+				</P>
+				<P>
+					<B>
+						EMAIL:
+					</B>
+					team.eee.psgitech@gmail.com
+				</P>  
+
+				<script type="text/javascript">
+        function ere() { 
+  var javascriptVariable = "eexplore";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+
+				<button type="button" class="btn btn-default btn-block" onclick="ere()">Register</button>
+      
+		</div>
+	</div>
+</div>
+</div>
+
+<div id="myModalecivil" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">Micropiling and determination of SBC</h4>
+			</div>
+			<div class="modal-body">
+				<P><b>Curious to learn about the foundation techniques?Then join us!!</b></p>
+				
+				<p>A glimpse about micropiling and its hands on demonstration integrated with an elucidation of safe bearing capacity of soil by Standard Penetration Test<br>
+				</p>
+				<br><p><b>VENUE :</b>E1-202</p>
+				
+				<p><b>TIME :</b>9AM - 4PM </P>
+				
+				<p><b>REGISTRATION FEES :</b>200/- </p>
+				
+				
+				<script type="text/javascript">
+        function mds() { 
+  var javascriptVariable = "micropiling";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+				
+				<p><b>CONTACT DETAILS</b><br>
+				Arul Sasi S : 7418308068<br>
+				Kaviya K : 8754934603
+				
+					
+				<button type="button" class="btn btn-default btn-block" onclick="mds()">Register</button>
+    
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="myic" class="modal fade" role="dialog" >
+  <div class="modal-dialog" >
+
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <br><br><h4 class="modal-title">Exploring IC Engine</h4>
+      </div>
+      <div class="modal-body">
+	  
+     <p> A Sophisticated hands on workshop that enhances the perception of IC Engines on the young minds. Transfer of knowledge being the main motto of the workshop. The students are provided with a cognitive platform where the people can actualize the concepts behind an automobile. 
+	      Various components of IC engine are brought in an exploded view to get a better understanding about the actuality of the engine.</p>
+		  
+	  <p><b>Topics to be covered</b><br>
+      •  Cylinder head assembly<br>									 
+	  •  Crankshaft assembly<br> 								             
+	  •  crankcase and oil sump assembly<br>								 
+	  •  clutch cover assembly<br> 								                 
+	  •  Ignition assembly<br>							                                
+	  •  Carburetor assembly<br> 									         
+	  •  Kick starter assembly<br>								         
+	  •  Transmission assembly</p>
+	  
+	  <p><b>NOTE</b><br> 
+	•  Participants have to bring their ID cards compulsorily<br>
+    •  Participants must wear shoes for safety precautions<br>
+    •  Registration is done on first come and first serve basis<br>
+    •  Certificates will be provided to all the participants<br>
+    •  Maximum of 30 members allowed<br>
+    •  Registration will be closed on the midnight of 15 FEBRUARY</p>
+
+    <p><b>VENUE:</b>E6  block – 106</p>
+	              
+    <p><b>TIMINGS :</b> 9.00AM -4.00PM</p>
+
+        
+	
+		<p><b>REGISTRATION FEES: </b> 400/-</p>
+        
+	
+		<p><b><b>REGISTRATION FEES: </b></b> 300/-</p>
+	 <p> <b><b>CONTACT DETAILS</b></b><br>
+	  Ashwin : 8012971280<br>
+      Thriu Venkat : 8883534598</p>
+	  
+	  <script type="text/javascript">
+        function eie() { 
+  var javascriptVariable = "exploring";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+	  
+	  <button type="button" class="btn btn-default btn-block" onclick="eie()">Register</button>
+	  
+      </div>     
+    </div>
+  </div>
+</div>
+
+<div id="myrobotrix" class="modal fade" role="dialog" >
+	<div class="modal-dialog" >
+    <!-- Modal content-->
+		<div class="modal-content" >
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			    <h4 class="modal-title">Robotrix</h4>
+			</div>
+			<div class="modal-body">
+			<p><b>“THE BEST WAY TO PREDICT THE FUTURE IS TO INVENT IT”</b><br><br>
+			Programming firebird V and Spark robots as a universal robotic research platform. Firebird V ATMEGA2560 provides an excellent environment for algorithm development and experimentation.
+			Spark V robot is a low-cost robot designed for robotics hobbyists and enthusiasts.
+			It is a hands-on training based on interfacing Input, devices, LCD, and IR sensor for distance measurement and motion control</p>
+			<p><b>RULES:</b><br>
+				 Limited for 20 members only.<br>
+            <p><b>AFTERMATH</b>br>
+			An event will also be conducted in this arena to unleash your technical potentials and you will be rewarded with certificates and prizes accordingly</p>
+			
+			<p><b>DETAILS:</b><br>
+			 Duration: 3 hours<br>
+             VENUE: E3-103</p>
+			
+			<p><b>REGISTRATION FEE :</b>200/-</p>
+			
+			<p><b>CONTACT DETAILS</b><br>
+			Megala P S : 9791346528<br>
+            Nived Abhay : 7845384880</p>
+
+			
+			<script type="text/javascript">
+        function ro() { 
+  var javascriptVariable = "robotrix";
+  window.location= "eventr.php?name=" + javascriptVariable; 
+}
+</script>
+			
+			<button type="button" class="btn btn-default btn-block" onclick="ro()">Register</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--FOOTER-->
+<div class="footer text-center spacer" >
+<p class="wowload flipInX">
+<a href="www.facebook.com/yuktaha"><img src="images/portfolio/FB.png"/></a> 
+<a href="www.twitter.com/yuktaha2K17"><img src="images/portfolio/twitter.png"/></a> 
+<a href="www.instagram.com/yuktaha"><img src="images/portfolio/isnta.png"/></a> 
+
+<br> <b>© 2017 Yuktaha. All rights reserved.</b>
+</div>
+
+<!-- jquery -->
+<script src="assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="assets/mobile/touchSwipe.min.js"></script>
+<script src="assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- custom script -->
+<script src="assets/script.js"></script>
+<script src='loader/preloader.js'></script>
+<script src='loader/jquery.min.js'></script>
+<script src="loader/js/index.js"></script>
+
+</body>
+
+
+<div id="register" class="modal fade" role="dialog">
+  <div class="modal-dialog" style="width:520px;max-height:100%;max-width:100%">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+     <div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+		
+			<div class="sign-in-htm">
+			<form class="group" action="login.php" method="post">
+				<div class="group">
+					<label for="user" class="label">EMAIL ADDRESS</label>
+					<input id="email" name="email" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">PASSWORD</label>
+					<input id="password" name="password" required="required"   type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" name="login" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				
+			</div>
+			</form>
+			<form class="sign-up-htm" action="register.php" autocomplete="on" method="post" enctype="multipart/form-data">
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">NAME</label>
+					<input id="username" name="username" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">EMAIL ADDRESS</label>
+					<input id="email" name="email" required="required"  class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">PASSWORD</label>
+					<input id="password" name="password" required="required"  type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">COLLEGE</label>
+					<input id="college" name="college" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">DEPARTMENT</label>
+					<input id="department" name="department" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">YEAR</label>
+					<input id="year" name="year" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">MOBILE</label>
+					<input id="mobile" name="mobile" required="required" type="text" class="input">
+				</div>
+				<div class="group">
+					<input type="submit" name="signup" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+						</div>
+						</form>
+		</div>
+	</div>
+</div>
+     
+    </div>
+
+  </div>
+</div>
+</html>

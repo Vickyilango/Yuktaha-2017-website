@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Opia. Full service landing &amp; coming soon page.</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Aether-Themes">
+	<meta name="description" content="Full service landing &amp; coming soon page.">
+	<meta name="keywords" content="template,coming soon,landing page,html5,css3,jquery">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="snap">
+		<div class="snap-content">
+			<img class="has-retina" src="images/logo.png" alt="Opia">
+			<span class="line"></span>
+			<h1>Oops.</h1>
+			<p class="sub-title">Something went wrong.</p>
+			<a class="button" href="index.html">Go back home</a>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script type="text/javascript">
+		function snapInit(){
+
+			var snapContent = $('.snap-content'),
+				snapContentHeight = snapContent.height(),
+				snapHeight = $('.snap').height(),
+				snapTopMargin = (snapHeight - snapContentHeight) / 2;
+
+			snapContent.css({
+				"margin-top" : snapTopMargin+"px"
+			});
+
+	    } 
+
+	    $(document).ready(snapInit);
+		$(window).resize(snapInit);
+	</script>
+</body>
+</html>
