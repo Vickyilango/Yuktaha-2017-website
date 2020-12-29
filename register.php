@@ -41,7 +41,7 @@ $mail->addReplyTo('yuktaha.2k17@gmail.com', 'Yuktaha2k17');
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Re: YUKTAHA 2K17 | Registration Successful';
-$mail->Body    = '<b>Greetings from Team Yuktaha</b><p>You have registered successfully.</p><br>Your Email Id is'.$_SESSION['email']'</br><br>Your Password is'.$_SESSION['pass']'<br><b>Best Wishes</b><br>Team Yuktaha';
+$mail->Body    = '<b>Greetings from Team Yuktaha</b><p>You have registered successfully.</p><br>Your Email Id is'.$_SESSION["email"]'</br><br>Your Password is'.$_SESSION["pass"]'<br><b>Best Wishes</b><br>Team Yuktaha';
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
